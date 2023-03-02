@@ -1,0 +1,459 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=description content="Packer: Creating a base windows server in AWS #cloud #hasicorp #IaC #terraform #windows
+This example uses the hcl format packer file to create a AMI in AWS through Packer."><meta property="og:title" content><meta property="og:description" content="Packer: Creating a base windows server in AWS #cloud #hasicorp #IaC #terraform #windows
+This example uses the hcl format packer file to create a AMI in AWS through Packer."><meta property="og:type" content="website"><meta property="og:image" content="https://shrestharajat.github.io/mgarden/icon.png"><meta property="og:url" content="https://shrestharajat.github.io/mgarden/DevOps/IAC/Packer/Packer-AWS-Windows/"><meta property="og:width" content="200"><meta property="og:height" content="200"><meta name=twitter:card content="summary"><meta name=twitter:title content><meta name=twitter:description content="Packer: Creating a base windows server in AWS #cloud #hasicorp #IaC #terraform #windows
+This example uses the hcl format packer file to create a AMI in AWS through Packer."><meta name=twitter:image content="https://shrestharajat.github.io/mgarden/icon.png"><title>M Garden</title><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" type=image/png href=https://shrestharajat.github.io/mgarden//icon.png><link href=https://shrestharajat.github.io/mgarden/styles.b369a84b3c6e6bfd686ad1f9da65641c.min.css rel=stylesheet><link href=https://shrestharajat.github.io/mgarden/styles/_light_syntax.86a48a52faebeaaf42158b72922b1c90.min.css rel=stylesheet id=theme-link><script src=https://shrestharajat.github.io/mgarden/js/darkmode.cbdc124701691e7511fa2b7a09fc2c18.min.js></script>
+<script src=https://shrestharajat.github.io/mgarden/js/util.a0ccf91e1937fe761a74da4946452710.min.js></script>
+<link rel=preload href=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css as=style onload='this.onload=null,this.rel="stylesheet"' integrity=sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js integrity=sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx crossorigin=anonymous></script>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js integrity=sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR crossorigin=anonymous></script>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/copy-tex.min.js integrity=sha384-ww/583aHhxWkz5DEVn6OKtNiIaLi2iBRNZXfJRiY1Ai7tnJ9UXpEsyvOITVpTl4A crossorigin=anonymous></script>
+<script async src=https://unpkg.com/@floating-ui/core@0.7.3></script>
+<script async src=https://unpkg.com/@floating-ui/dom@0.5.4></script>
+<script async src=https://shrestharajat.github.io/mgarden/js/popover.aa9bc99c7c38d3ae9538f218f1416adb.min.js></script>
+<script defer src=https://shrestharajat.github.io/mgarden/js/code-title.ce4a43f09239a9efb48fee342e8ef2df.min.js></script>
+<script defer src=https://shrestharajat.github.io/mgarden/js/clipboard.2913da76d3cb21c5deaa4bae7da38c9f.min.js></script>
+<script defer src=https://shrestharajat.github.io/mgarden/js/callouts.7723cac461d613d118ee8bb8216b9838.min.js></script>
+<script>const SEARCH_ENABLED=!1,LATEX_ENABLED=!0,PRODUCTION=!0,BASE_URL="https://shrestharajat.github.io/mgarden/",fetchData=Promise.all([fetch("https://shrestharajat.github.io/mgarden/indices/linkIndex.bbff78b8ad5d34366c8aa2add3c0e87c.min.json").then(e=>e.json()).then(e=>({index:e.index,links:e.links})),fetch("https://shrestharajat.github.io/mgarden/indices/contentIndex.53f665b149abd71cae4e0c657d40831f.min.json").then(e=>e.json())]).then(([{index:e,links:t},n])=>({index:e,links:t,content:n})),render=()=>{const e=new URL(BASE_URL),t=e.pathname,n=window.location.pathname,s=t==n;addCopyButtons(),addTitleToCodeBlocks(),addCollapsibleCallouts(),initPopover("https://shrestharajat.github.io/mgarden",!0);const o=document.getElementById("footer");if(o){const e=document.getElementById("graph-container");if(!e)return requestAnimationFrame(render);e.textContent="";const t=s&&!0;drawGraph("https://shrestharajat.github.io/mgarden",t,[{"/moc":"#4388cc"}],t?{centerForce:1,depth:-1,enableDrag:!0,enableLegend:!1,enableZoom:!0,fontSize:.5,linkDistance:1,opacityScale:3,repelForce:1,scale:1.4}:{centerForce:1,depth:1,enableDrag:!0,enableLegend:!1,enableZoom:!0,fontSize:.6,linkDistance:1,opacityScale:3,repelForce:2,scale:1.2})}var i=document.getElementsByClassName("mermaid");i.length>0&&import("https://unpkg.com/mermaid@9/dist/mermaid.esm.min.mjs").then(e=>{e.default.init()});function a(n){const e=n.target,t=e.className.split(" "),s=t.includes("broken"),o=t.includes("internal-link");plausible("Link Click",{props:{href:e.href,broken:s,internal:o,graph:!1}})}const r=document.querySelectorAll("a");for(link of r)link.className.includes("root-title")&&link.addEventListener("click",a,{once:!0})},init=(e=document)=>{addCopyButtons(),addTitleToCodeBlocks(),renderMathInElement(e.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1}],macros:{'’':"'"},throwOnError:!1})}</script><script type=module>
+    import { attachSPARouting } from "https:\/\/shrestharajat.github.io\/mgarden\/js\/router.d6fe6bd821db9ea97f9aeefae814d8e7.min.js"
+    attachSPARouting(init, render)
+  </script><script defer data-domain=shrestharajat.github.io/mgarden src=https://plausible.io/js/script.js></script>
+<script>window.plausible=window.plausible||function(){(window.plausible.q=window.plausible.q||[]).push(arguments)}</script></head><body><div id=search-container><div id=search-space><input autocomplete=off id=search-bar name=search type=text aria-label=Search placeholder="Search for something..."><div id=results-container></div></div></div><script src=https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js integrity="sha256-i3A0NZGkhsKjVMzFxv3ksk0DZh3aXqu0l49Bbh0MdjE=" crossorigin=anonymous defer></script>
+<script defer src=https://shrestharajat.github.io/mgarden/js/full-text-search.e6e2e0c213187ca0c703d6e2c7a77fcd.min.js></script><div class=singlePage><header><h1 id=page-title><a class=root-title href=https://shrestharajat.github.io/mgarden/>M Garden</a></h1><div class=spacer></div><div id=search-icon><p>Search</p><svg tabindex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search Icon</title><desc id="desc">Icon to open search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"/><circle cx="8" cy="8" r="7"/></g></svg></div><div class=darkmode><input class=toggle id=darkmode-toggle type=checkbox tabindex=-1>
+<label id=toggle-label-light for=darkmode-toggle tabindex=-1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="dayIcon" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35"><title>Light Mode</title><path d="M6 17.5C6 16.672 5.328 16 4.5 16h-3C.672 16 0 16.672.0 17.5S.672 19 1.5 19h3C5.328 19 6 18.328 6 17.5zM7.5 26c-.414.0-.789.168-1.061.439l-2 2C4.168 28.711 4 29.086 4 29.5 4 30.328 4.671 31 5.5 31c.414.0.789-.168 1.06-.44l2-2C8.832 28.289 9 27.914 9 27.5 9 26.672 8.329 26 7.5 26zm10-20C18.329 6 19 5.328 19 4.5v-3C19 .672 18.329.0 17.5.0S16 .672 16 1.5v3C16 5.328 16.671 6 17.5 6zm10 3c.414.0.789-.168 1.06-.439l2-2C30.832 6.289 31 5.914 31 5.5 31 4.672 30.329 4 29.5 4c-.414.0-.789.168-1.061.44l-2 2C26.168 6.711 26 7.086 26 7.5 26 8.328 26.671 9 27.5 9zM6.439 8.561C6.711 8.832 7.086 9 7.5 9 8.328 9 9 8.328 9 7.5c0-.414-.168-.789-.439-1.061l-2-2C6.289 4.168 5.914 4 5.5 4 4.672 4 4 4.672 4 5.5c0 .414.168.789.439 1.06l2 2.001zM33.5 16h-3c-.828.0-1.5.672-1.5 1.5s.672 1.5 1.5 1.5h3c.828.0 1.5-.672 1.5-1.5S34.328 16 33.5 16zM28.561 26.439C28.289 26.168 27.914 26 27.5 26c-.828.0-1.5.672-1.5 1.5.0.414.168.789.439 1.06l2 2C28.711 30.832 29.086 31 29.5 31c.828.0 1.5-.672 1.5-1.5.0-.414-.168-.789-.439-1.061l-2-2zM17.5 29c-.829.0-1.5.672-1.5 1.5v3c0 .828.671 1.5 1.5 1.5s1.5-.672 1.5-1.5v-3C19 29.672 18.329 29 17.5 29zm0-22C11.71 7 7 11.71 7 17.5S11.71 28 17.5 28 28 23.29 28 17.5 23.29 7 17.5 7zm0 18c-4.136.0-7.5-3.364-7.5-7.5s3.364-7.5 7.5-7.5 7.5 3.364 7.5 7.5S21.636 25 17.5 25z"/></svg></label><label id=toggle-label-dark for=darkmode-toggle tabindex=-1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="nightIcon" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'"><title>Dark Mode</title><path d="M96.76 66.458c-.853-.852-2.15-1.064-3.23-.534-6.063 2.991-12.858 4.571-19.655 4.571C62.022 70.495 50.88 65.88 42.5 57.5 29.043 44.043 25.658 23.536 34.076 6.47c.532-1.08.318-2.379-.534-3.23-.851-.852-2.15-1.064-3.23-.534-4.918 2.427-9.375 5.619-13.246 9.491-9.447 9.447-14.65 22.008-14.65 35.369.0 13.36 5.203 25.921 14.65 35.368s22.008 14.65 35.368 14.65c13.361.0 25.921-5.203 35.369-14.65 3.872-3.871 7.064-8.328 9.491-13.246C97.826 68.608 97.611 67.309 96.76 66.458z"/></svg></label></div></header><article><p class=meta>Last updated
+Mar 2, 2023
+<a href=https://github.com/shrestharajat/mgarden/DevOps/IAC/Packer/Packer%20AWS%20Windows.md rel=noopener>Edit Source</a></p><ul class=tags></ul><aside class=mainTOC><details open><summary>Table of Contents</summary><nav id=TableOfContents></nav></details></aside><a href=#packer-creating-a-base-windows-server-in-aws><h1 id=packer-creating-a-base-windows-server-in-aws><span class=hanchor arialabel=Anchor># </span>Packer: Creating a base windows server in AWS</h1></a><p>#cloud #hasicorp #IaC #terraform #windows</p><p>This example uses the hcl format packer file to create a
+<a rel=noopener class="internal-link broken" data-src=AMI>AMI</a> in
+<a href=/mgarden/Cloud-Computing/AWS/AWS/ rel=noopener class=internal-link data-src=/mgarden/Cloud-Computing/AWS/AWS/>AWS</a> through
+<a href=/mgarden/DevOps/IAC/Packer/Packer/ rel=noopener class=internal-link data-src=/mgarden/DevOps/IAC/Packer/Packer/>Packer</a>. This demo builds an
+<a rel=noopener class="internal-link broken" data-src=Windows>Windows</a> AMI based on windows server 2016 with containers with custom applications (Datadog agent and dotnet framework, firefox, putty, devtools).</p><ol><li>Set the aws credentials on the CLI</li><li>Create a VPC or just use a default VPC</li><li>Create a <code>packer.hcl</code> filewith the following:</li></ol><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span><span class=lnt>40
+</span><span class=lnt>41
+</span><span class=lnt>42
+</span><span class=lnt>43
+</span><span class=lnt>44
+</span><span class=lnt>45
+</span><span class=lnt>46
+</span><span class=lnt>47
+</span><span class=lnt>48
+</span><span class=lnt>49
+</span><span class=lnt>50
+</span><span class=lnt>51
+</span><span class=lnt>52
+</span><span class=lnt>53
+</span><span class=lnt>54
+</span><span class=lnt>55
+</span><span class=lnt>56
+</span><span class=lnt>57
+</span><span class=lnt>58
+</span><span class=lnt>59
+</span><span class=lnt>60
+</span><span class=lnt>61
+</span><span class=lnt>62
+</span><span class=lnt>63
+</span><span class=lnt>64
+</span><span class=lnt>65
+</span><span class=lnt>66
+</span><span class=lnt>67
+</span><span class=lnt>68
+</span><span class=lnt>69
+</span><span class=lnt>70
+</span><span class=lnt>71
+</span><span class=lnt>72
+</span><span class=lnt>73
+</span><span class=lnt>74
+</span><span class=lnt>75
+</span><span class=lnt>76
+</span><span class=lnt>77
+</span><span class=lnt>78
+</span><span class=lnt>79
+</span><span class=lnt>80
+</span><span class=lnt>81
+</span><span class=lnt>82
+</span><span class=lnt>83
+</span><span class=lnt>84
+</span><span class=lnt>85
+</span><span class=lnt>86
+</span><span class=lnt>87
+</span><span class=lnt>88
+</span><span class=lnt>89
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-hcl data-lang=hcl><span class=line><span class=cl><span class=k>variable</span> <span class=s2>&#34;ami_name&#34;</span> {
+</span></span><span class=line><span class=cl><span class=n>	type</span> <span class=o>=</span> <span class=k>string</span>
+</span></span><span class=line><span class=cl><span class=n>	default</span> <span class=o>=</span> <span class=s2>&#34;Win-2016-Containers-Base-{{timestamp}}&#34;</span>
+</span></span><span class=line><span class=cl>}
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>variable</span> <span class=s2>&#34;region&#34;</span> {
+</span></span><span class=line><span class=cl><span class=n>	type</span> <span class=o>=</span> <span class=k>string</span>
+</span></span><span class=line><span class=cl><span class=n>	default</span> <span class=o>=</span> <span class=s2>&#34;eu-west-1&#34;</span>
+</span></span><span class=line><span class=cl>}
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl><span class=k>variable</span> <span class=s2>&#34;var_instance_type&#34;</span> {
+</span></span><span class=line><span class=cl><span class=n>	type</span> <span class=o>=</span> <span class=k>string</span>
+</span></span><span class=line><span class=cl><span class=n>	default</span> <span class=o>=</span> <span class=s2>&#34;c6i.large&#34;</span>
+</span></span><span class=line><span class=cl>}
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>variable</span> <span class=s2>&#34;var_vm_base_name&#34;</span> {
+</span></span><span class=line><span class=cl><span class=n>	type</span> <span class=o>=</span> <span class=k>string</span>
+</span></span><span class=line><span class=cl><span class=n>	default</span> <span class=o>=</span> <span class=s2>&#34;WinServer-2016-English-Full-Containers&#34;</span> 
+</span></span><span class=line><span class=cl>}
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>variable</span> <span class=s2>&#34;var_vm_base_owner&#34;</span> {
+</span></span><span class=line><span class=cl><span class=n>	type</span> <span class=o>=</span> <span class=k>string</span>
+</span></span><span class=line><span class=cl><span class=n>	default</span> <span class=o>=</span> <span class=s2>&#34;amazon&#34;</span>
+</span></span><span class=line><span class=cl>}
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl><span class=k>data</span> <span class=s2>&#34;amazon-ami&#34; &#34;server_win2016_con&#34;</span> {
+</span></span><span class=line><span class=cl><span class=n>	filters</span> <span class=o>=</span> {
+</span></span><span class=line><span class=cl><span class=n>		name</span> <span class=o>=</span> <span class=s2>&#34;${var.var_vm_base_name}*&#34;</span>
+</span></span><span class=line><span class=cl><span class=n>		root-device-type</span> <span class=o>=</span> <span class=s2>&#34;ebs&#34;</span>
+</span></span><span class=line><span class=cl><span class=n>		virtualization-type</span> <span class=o>=</span> <span class=s2>&#34;hvm&#34;</span>
+</span></span><span class=line><span class=cl>	}
+</span></span><span class=line><span class=cl><span class=n>	most_recent</span> <span class=o>=</span> <span class=kt>true</span>
+</span></span><span class=line><span class=cl><span class=n>	owners</span> <span class=o>=</span> <span class=p>[</span><span class=s2>&#34;${var.var_vm_base_owner}&#34;</span><span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=n>	region</span> <span class=o>=</span> <span class=k>var</span><span class=p>.</span><span class=k>region</span>
+</span></span><span class=line><span class=cl>}
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>source</span> <span class=s2>&#34;amazon-ebs&#34; &#34;windows&#34;</span> {
+</span></span><span class=line><span class=cl><span class=n>	ami_name</span> <span class=o>=</span> <span class=k>var</span><span class=p>.</span><span class=k>ami_name</span>
+</span></span><span class=line><span class=cl><span class=n>	instance_type</span> <span class=o>=</span> <span class=k>var</span><span class=p>.</span><span class=k>var_instance_type</span>
+</span></span><span class=line><span class=cl><span class=n>	region</span> <span class=o>=</span> <span class=k>var</span><span class=p>.</span><span class=k>region</span>
+</span></span><span class=line><span class=cl><span class=n>	source_ami</span> <span class=o>=</span> <span class=k>data</span><span class=p>.</span><span class=k>amazon</span><span class=err>-</span><span class=k>ami</span><span class=p>.</span><span class=k>server_win2016_con</span><span class=p>.</span><span class=k>id</span><span class=c1>
+</span></span></span><span class=line><span class=cl><span class=c1>	
+</span></span></span><span class=line><span class=cl><span class=c1>	# Use these vars for custom vpc public sn
+</span></span></span><span class=line><span class=cl><span class=c1>	# vpc_id = &#34;vpc-03e5a79ba2cf55673&#34;
+</span></span></span><span class=line><span class=cl><span class=c1>	# subnet_id = &#34;subnet-05aed32d3db86345c&#34;
+</span></span></span><span class=line><span class=cl><span class=c1>	# associate_public_ip_address = &#34;true&#34;
+</span></span></span><span class=line><span class=cl><span class=c1></span>	
+</span></span><span class=line><span class=cl>	<span class=n>communicator</span> <span class=o>=</span> <span class=s2>&#34;winrm&#34;</span>
+</span></span><span class=line><span class=cl><span class=n>	winrm_username</span> <span class=o>=</span> <span class=s2>&#34;Administrator&#34;</span>
+</span></span><span class=line><span class=cl><span class=n>	winrm_use_ssl</span> <span class=o>=</span> <span class=kt>true</span>
+</span></span><span class=line><span class=cl><span class=n>	winrm_insecure</span> <span class=o>=</span> <span class=kt>true</span>
+</span></span><span class=line><span class=cl>	<span class=k>launch_block_device_mappings</span> {
+</span></span><span class=line><span class=cl><span class=n>		delete_on_termination</span> <span class=o>=</span> <span class=kt>true</span>
+</span></span><span class=line><span class=cl><span class=n>		device_name</span> <span class=o>=</span> <span class=s2>&#34;/dev/sda1&#34;</span>
+</span></span><span class=line><span class=cl><span class=n>		volume_size</span> <span class=o>=</span> <span class=m>50</span>
+</span></span><span class=line><span class=cl><span class=n>		volume_type</span> <span class=o>=</span> <span class=s2>&#34;gp3&#34;</span>
+</span></span><span class=line><span class=cl>	} 
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>	<span class=n>tags</span> <span class=o>=</span> {
+</span></span><span class=line><span class=cl><span class=n>		ApprovedEnvironments</span> <span class=o>=</span> <span class=s2>&#34;test&#34;</span>
+</span></span><span class=line><span class=cl><span class=n>		ApprovedInspector</span> <span class=o>=</span> <span class=s2>&#34;false&#34;</span>
+</span></span><span class=line><span class=cl><span class=n>		BuildDate</span> <span class=o>=</span> <span class=s2>&#34;{{ isotime }}&#34;</span>
+</span></span><span class=line><span class=cl><span class=n>		Name</span> <span class=o>=</span> <span class=s2>&#34;ebs-${var.ami_name}&#34;</span>
+</span></span><span class=line><span class=cl><span class=n>		stable</span> <span class=o>=</span> <span class=s2>&#34;false&#34;</span>
+</span></span><span class=line><span class=cl>	}<span class=c1>
+</span></span></span><span class=line><span class=cl><span class=c1>
+</span></span></span><span class=line><span class=cl><span class=c1>	# user data file is required for packer to connect
+</span></span></span><span class=line><span class=cl><span class=c1></span>
+</span></span><span class=line><span class=cl><span class=n>	user_data_file</span> <span class=o>=</span> <span class=s2>&#34;winrm_bootstrap.txt&#34;</span>
+</span></span><span class=line><span class=cl>	
+</span></span><span class=line><span class=cl>}
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>build</span> {
+</span></span><span class=line><span class=cl><span class=n>	sources</span> <span class=o>=</span> <span class=p>[</span><span class=s2>&#34;source.amazon-ebs.windows&#34;</span><span class=p>]</span>
+</span></span><span class=line><span class=cl>	<span class=k>provisioner</span> <span class=s2>&#34;powershell&#34;</span> {
+</span></span><span class=line><span class=cl><span class=n>		script</span> <span class=o>=</span> <span class=s2>&#34;install.ps1&#34;</span>
+</span></span><span class=line><span class=cl>	}
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>	<span class=k>provisioner</span> <span class=s2>&#34;powershell&#34;</span> {
+</span></span><span class=line><span class=cl><span class=n>		inline</span> <span class=o>=</span> <span class=p>[</span><span class=c1>
+</span></span></span><span class=line><span class=cl><span class=c1>			# Re-initialise the AWS instance on startup
+</span></span></span><span class=line><span class=cl><span class=c1></span>			<span class=s2>&#34;C:/ProgramData/Amazon/EC2-Windows/Launch/Scripts/InitializeInstance.ps1 -Schedule&#34;</span><span class=p>,</span><span class=c1>
+</span></span></span><span class=line><span class=cl><span class=c1>			
+</span></span></span><span class=line><span class=cl><span class=c1>			# Remove system specific information from this image
+</span></span></span><span class=line><span class=cl><span class=c1></span>			<span class=s2>&#34;C:/ProgramData/Amazon/EC2-Windows/Launch/Scripts/SysprepInstance.ps1 -NoShutdown&#34;</span>
+</span></span><span class=line><span class=cl>		<span class=p>]</span>
+</span></span><span class=line><span class=cl>	}
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>}
+</span></span></code></pre></td></tr></table></div></div><p>Then create a powershell script <code>install.ps1</code> with:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span><span class=lnt>40
+</span><span class=lnt>41
+</span><span class=lnt>42
+</span><span class=lnt>43
+</span><span class=lnt>44
+</span><span class=lnt>45
+</span><span class=lnt>46
+</span><span class=lnt>47
+</span><span class=lnt>48
+</span><span class=lnt>49
+</span><span class=lnt>50
+</span><span class=lnt>51
+</span><span class=lnt>52
+</span><span class=lnt>53
+</span><span class=lnt>54
+</span><span class=lnt>55
+</span><span class=lnt>56
+</span><span class=lnt>57
+</span><span class=lnt>58
+</span><span class=lnt>59
+</span><span class=lnt>60
+</span><span class=lnt>61
+</span><span class=lnt>62
+</span><span class=lnt>63
+</span><span class=lnt>64
+</span><span class=lnt>65
+</span><span class=lnt>66
+</span><span class=lnt>67
+</span><span class=lnt>68
+</span><span class=lnt>69
+</span><span class=lnt>70
+</span><span class=lnt>71
+</span><span class=lnt>72
+</span><span class=lnt>73
+</span><span class=lnt>74
+</span><span class=lnt>75
+</span><span class=lnt>76
+</span><span class=lnt>77
+</span><span class=lnt>78
+</span><span class=lnt>79
+</span><span class=lnt>80
+</span><span class=lnt>81
+</span><span class=lnt>82
+</span><span class=lnt>83
+</span><span class=lnt>84
+</span><span class=lnt>85
+</span><span class=lnt>86
+</span><span class=lnt>87
+</span><span class=lnt>88
+</span><span class=lnt>89
+</span><span class=lnt>90
+</span><span class=lnt>91
+</span><span class=lnt>92
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-powershell data-lang=powershell><span class=line><span class=cl><span class=c># Install Programs and updates</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=no>[Net.ServicePointManager]</span><span class=p>::</span><span class=n>SecurityProtocol</span> <span class=p>=</span> <span class=no>[Net.SecurityProtocolType]</span><span class=p>::</span><span class=n>Tls</span><span class=p>,</span> <span class=no>[Net.SecurityProtocolType]</span><span class=p>::</span><span class=n>Tls11</span><span class=p>,</span> <span class=no>[Net.SecurityProtocolType]</span><span class=p>::</span><span class=n>Tls12</span><span class=p>,</span> <span class=no>[Net.SecurityProtocolType]</span><span class=p>::</span><span class=n>Ssl3</span>
+</span></span><span class=line><span class=cl><span class=no>[Net.ServicePointManager]</span><span class=p>::</span><span class=n>SecurityProtocol</span> <span class=p>=</span> <span class=s2>&#34;Tls, Tls11, Tls12, Ssl3&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>try</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>	<span class=c># Install Windows update PS cmdlet</span>
+</span></span><span class=line><span class=cl>	<span class=nb>Write-Host</span> <span class=s2>&#34;Installing Windows update PS cmdlet&#34;</span>
+</span></span><span class=line><span class=cl>	<span class=nb>Install-Module</span> <span class=n>-Name</span> <span class=n>PSWindowsUpdate</span> <span class=n>-Force</span>
+</span></span><span class=line><span class=cl>	<span class=nb>Write-Host</span> <span class=s2>&#34;Getting windows update&#34;</span>
+</span></span><span class=line><span class=cl>	<span class=nb>Get-WindowsUpdate</span>
+</span></span><span class=line><span class=cl>	<span class=nb>Write-Host</span> <span class=s2>&#34;Downloading and Applying Windows Updates&#34;</span>
+</span></span><span class=line><span class=cl>	<span class=nb>Get-WUInstall</span> <span class=n>-AcceptAll</span> <span class=n>-AutoReboot</span> <span class=p>|</span> <span class=nb>Out-File</span> <span class=n>C:</span><span class=p>\</span><span class=n>PSWindowsUpdate</span><span class=p>.</span><span class=n>log</span>
+</span></span><span class=line><span class=cl>	<span class=nb>Write-Host</span> <span class=s2>&#34;Contents of the update log:&#34;</span>
+</span></span><span class=line><span class=cl>	<span class=nb>cat </span><span class=n>C:</span><span class=p>\</span><span class=n>PSWindowsUpdate</span><span class=p>.</span><span class=n>log</span>
+</span></span><span class=line><span class=cl>	<span class=nb>Write-Host</span> <span class=s2>&#34;Finished updating!&#34;</span>
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>	<span class=c># Install Dotnet Framework</span>
+</span></span><span class=line><span class=cl>	<span class=nb>Write-Host</span> <span class=s2>&#34;Downloading dotnet_4.72&#34;</span>
+</span></span><span class=line><span class=cl>	<span class=nb>Invoke-WebRequest</span> <span class=n>-Uri</span> <span class=s2>&#34;https://download.visualstudio.microsoft.com/download/pr/158dce74-251c-4af3-b8cc-4608621341c8/9c1e178a11f55478e2112714a3897c1a/ndp472-devpack-enu.exe&#34;</span> <span class=n>-OutFile</span> <span class=n>dotnet_4_72</span><span class=p>.</span><span class=n>exe</span>
+</span></span><span class=line><span class=cl>	<span class=nb>Write-Host</span> <span class=s2>&#34;Installing dotnet_4.72&#34;</span>
+</span></span><span class=line><span class=cl>	<span class=nv>$dotnet</span> <span class=p>=</span> <span class=p>(</span><span class=nb>Start-Process</span> <span class=p>.\</span><span class=n>dotnet_4_72</span><span class=p>.</span><span class=n>exe</span> <span class=n>-ArgumentList</span> <span class=s2>&#34;/SILENT&#34;</span><span class=p>,</span><span class=s2>&#34;/NORESTART&#34;</span><span class=p>,</span><span class=s2>&#34;/MERGETASKS=!runcode&#34;</span> <span class=n>-NoNewWindow</span> <span class=n>-Wait</span> <span class=n>-PassThru</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>	<span class=k>if</span> <span class=p>(</span><span class=nv>$dotnet</span><span class=p>.</span><span class=n>ExitCode</span> <span class=o>-ne</span> <span class=n>0</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>		<span class=nb>Write-Error</span> <span class=s2>&#34;Error installing Dotnet4.72&#34;</span>
+</span></span><span class=line><span class=cl>		<span class=n>exit</span> <span class=n>1</span>
+</span></span><span class=line><span class=cl>	<span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>	<span class=c># Install DataDog Agent</span>
+</span></span><span class=line><span class=cl>	<span class=nb>Write-Host</span> <span class=s2>&#34;Downloading Datadog&#34;</span>
+</span></span><span class=line><span class=cl>	<span class=nb>Invoke-WebRequest</span> <span class=n>-Uri</span> <span class=s2>&#34;https://s3.amazonaws.com/ddagent-windows-stable/datadog-agent-7-latest.amd64.msi&#34;</span> <span class=n>-OutFile</span> <span class=n>DataDog</span><span class=p>.</span><span class=n>msi</span>
+</span></span><span class=line><span class=cl>	<span class=nb>Write-Host</span> <span class=s2>&#34;Installing Datadog&#34;</span>
+</span></span><span class=line><span class=cl>	<span class=nv>$datadog</span> <span class=p>=</span> <span class=p>(</span><span class=nb>Start-Process</span> <span class=n>msiexec</span><span class=p>.</span><span class=n>exe</span> <span class=n>-ArgumentList</span> <span class=s2>&#34;/qn&#34;</span><span class=p>,</span> <span class=s2>&#34;/i&#34;</span><span class=p>,</span><span class=s2>&#34;DataDog.msi&#34;</span><span class=p>,</span><span class=s2>&#34;/passive&#34;</span> <span class=n>-NoNewWindow</span> <span class=n>-Wait</span> <span class=n>-PassThru</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>	<span class=k>if</span> <span class=p>(</span><span class=nv>$datadog</span><span class=p>.</span><span class=n>ExitCode</span> <span class=o>-ne</span> <span class=n>0</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>		<span class=nb>Write-Error</span> <span class=s2>&#34;Error installing Datadog&#34;</span>
+</span></span><span class=line><span class=cl>		<span class=n>exit</span> <span class=n>1</span>
+</span></span><span class=line><span class=cl>	<span class=p>}</span>
+</span></span><span class=line><span class=cl>	<span class=nb>Write-Host</span> <span class=s2>&#34;Downloading Powershell&#34;</span>
+</span></span><span class=line><span class=cl>	<span class=nb>Invoke-WebRequest</span> <span class=n>-Uri</span> <span class=s2>&#34;https://objects.githubusercontent.com/github-production-release-asset-2e65be/49609581/e4df067c-213c-4418-9ce1-194abf2f3aec?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230111%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230111T122115Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=7ef9288ef60c2113631bc06610e60d62eaaf05bba399bd36a8e9b61d9dde8375&amp;X-Amz-SignedHeaders=host&amp;actor_id=107860829&amp;key_id=0&amp;repo_id=49609581&amp;response-content-disposition=attachment%3B%20filename%3DPowerShell-7.4.0-preview.1-win-x64.msi&amp;response-content-type=application%2Foctet-stream&#34;</span> <span class=n>-OutFile</span> <span class=n>PowershellSetup</span><span class=p>.</span><span class=n>msi</span>
+</span></span><span class=line><span class=cl>	<span class=nb>Write-Host</span> <span class=s2>&#34;Installing Powershell&#34;</span>
+</span></span><span class=line><span class=cl>	<span class=nv>$Powershell</span> <span class=p>=</span> <span class=p>(</span><span class=nb>Start-Process</span> <span class=n>msiexec</span><span class=p>.</span><span class=n>exe</span> <span class=n>-ArgumentList</span> <span class=s2>&#34;/i&#34;</span><span class=p>,</span><span class=s2>&#34;PowershellSetup.msi&#34;</span><span class=p>,</span><span class=s2>&#34;/passive&#34;</span> <span class=n>-NoNewWindow</span> <span class=n>-Wait</span> <span class=n>-PassThru</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>	<span class=k>if</span> <span class=p>(</span><span class=nv>$Powershell</span><span class=p>.</span><span class=n>ExitCode</span> <span class=o>-ne</span> <span class=n>0</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>	<span class=nb>Write-Error</span> <span class=s2>&#34;Error installing Powershell&#34;</span>
+</span></span><span class=line><span class=cl>	<span class=n>exit</span> <span class=n>1</span>	
+</span></span><span class=line><span class=cl>	<span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>	<span class=nb>Write-Host</span> <span class=s2>&#34;Downloading Firefox&#34;</span>
+</span></span><span class=line><span class=cl>	
+</span></span><span class=line><span class=cl>	<span class=nb>Invoke-WebRequest</span> <span class=n>-Uri</span> <span class=s2>&#34;https://download.mozilla.org/?product=firefox-msi-latest-ssl&amp;os=win64&amp;lang=en-GB&#34;</span> <span class=n>-OutFile</span> <span class=n>FirefoxSetup</span><span class=p>.</span><span class=n>msi</span>
+</span></span><span class=line><span class=cl>	<span class=nb>Write-Host</span> <span class=s2>&#34;Installing Firefox&#34;</span>
+</span></span><span class=line><span class=cl>	<span class=nv>$firefox</span> <span class=p>=</span> <span class=p>(</span><span class=nb>Start-Process</span> <span class=n>msiexec</span><span class=p>.</span><span class=n>exe</span> <span class=n>-ArgumentList</span> <span class=s2>&#34;/i&#34;</span><span class=p>,</span><span class=s2>&#34;FirefoxSetup.msi&#34;</span><span class=p>,</span><span class=s2>&#34;/passive&#34;</span> <span class=n>-NoNewWindow</span> <span class=n>-Wait</span> <span class=n>-PassThru</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>	<span class=k>if</span> <span class=p>(</span><span class=nv>$firefox</span><span class=p>.</span><span class=n>ExitCode</span> <span class=o>-ne</span> <span class=n>0</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>	<span class=nb>Write-Error</span> <span class=s2>&#34;Error installing Firefox&#34;</span>
+</span></span><span class=line><span class=cl>	<span class=n>exit</span> <span class=n>1</span>
+</span></span><span class=line><span class=cl>	<span class=p>}</span>	  
+</span></span><span class=line><span class=cl>	
+</span></span><span class=line><span class=cl>	<span class=nb>Write-Host</span> <span class=s2>&#34;Downloading Putty&#34;</span>
+</span></span><span class=line><span class=cl>	<span class=nb>Invoke-WebRequest</span> <span class=n>-Uri</span> <span class=s2>&#34;https://the.earth.li/~sgtatham/putty/0.74/w64/putty-64bit-0.74-installer.msi&#34;</span> <span class=n>-OutFile</span> <span class=nb>putty-installer</span><span class=p>.</span><span class=n>msi</span>
+</span></span><span class=line><span class=cl>	<span class=nb>Write-Host</span> <span class=s2>&#34;Installing Putty&#34;</span>
+</span></span><span class=line><span class=cl>	<span class=nv>$putty</span> <span class=p>=</span> <span class=p>(</span><span class=nb>Start-Process</span> <span class=n>msiexec</span><span class=p>.</span><span class=n>exe</span> <span class=n>-ArgumentList</span> <span class=s2>&#34;/i&#34;</span><span class=p>,</span><span class=s2>&#34;putty-installer.msi&#34;</span><span class=p>,</span><span class=s2>&#34;/passive&#34;</span> <span class=n>-NoNewWindow</span> <span class=n>-Wait</span> <span class=n>-PassThru</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>	<span class=k>if</span> <span class=p>(</span><span class=nv>$putty</span><span class=p>.</span><span class=n>ExitCode</span> <span class=o>-ne</span> <span class=n>0</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>		<span class=nb>Write-Error</span> <span class=s2>&#34;Error installing Putty&#34;</span>
+</span></span><span class=line><span class=cl>		<span class=n>exit</span> <span class=n>1</span>
+</span></span><span class=line><span class=cl>	<span class=p>}</span>
+</span></span><span class=line><span class=cl>	<span class=nb>Write-Host</span> <span class=s2>&#34;Downloading VSCode&#34;</span>
+</span></span><span class=line><span class=cl>	
+</span></span><span class=line><span class=cl>	<span class=nb>Invoke-WebRequest</span> <span class=n>-Uri</span> <span class=s2>&#34;https://code.visualstudio.com/sha/download?build=stable&amp;os=win32-x64&#34;</span> <span class=n>-OutFile</span> <span class=n>VSCodeSetup</span><span class=p>.</span><span class=n>exe</span>
+</span></span><span class=line><span class=cl>	<span class=nb>Write-Host</span> <span class=s2>&#34;Installing VSCode&#34;</span>
+</span></span><span class=line><span class=cl>	<span class=nv>$vscode</span> <span class=p>=</span> <span class=p>(</span><span class=nb>Start-Process</span> <span class=p>.\</span><span class=n>VSCodeSetup</span><span class=p>.</span><span class=n>exe</span> <span class=n>-ArgumentList</span> <span class=s2>&#34;/SILENT&#34;</span><span class=p>,</span><span class=s2>&#34;/NORESTART&#34;</span><span class=p>,</span><span class=s2>&#34;/MERGETASKS=!runcode&#34;</span> <span class=n>-NoNewWindow</span> <span class=n>-Wait</span> <span class=n>-PassThru</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>	<span class=k>if</span> <span class=p>(</span><span class=nv>$vscode</span><span class=p>.</span><span class=n>ExitCode</span> <span class=o>-ne</span> <span class=n>0</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>		<span class=nb>Write-Error</span> <span class=s2>&#34;Error installing VSCode&#34;</span>
+</span></span><span class=line><span class=cl>		<span class=n>exit</span> <span class=n>1</span>	
+</span></span><span class=line><span class=cl>	<span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>	<span class=nv>$vscode_extensions</span> <span class=p>=</span> <span class=p>@(</span><span class=s2>&#34;ms-vscode-remote.remote-ssh&#34;</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>	<span class=k>foreach</span> <span class=p>(</span><span class=nv>$vse</span> <span class=k>in</span> <span class=nv>$vscode_extensions</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>		<span class=nb>Write-Host</span> <span class=s2>&#34;Installing VSCode extension $vse&#34;</span>
+</span></span><span class=line><span class=cl>		
+</span></span><span class=line><span class=cl>		<span class=c># Unfortunately this always seems to return 0 even if there&#39;s an error</span>
+</span></span><span class=line><span class=cl>		<span class=nv>$vscodeext</span> <span class=p>=</span> <span class=p>(</span><span class=nb>Start-Process</span> <span class=s2>&#34;C:\Program Files\Microsoft VS Code\bin\code.cmd&#34;</span> <span class=n>-ArgumentList</span> <span class=s2>&#34;--install-extension&#34;</span><span class=p>,</span><span class=nv>$vse</span><span class=p>,</span><span class=s2>&#34;--force&#34;</span> <span class=n>-NoNewWindow</span> <span class=n>-Wait</span> <span class=n>-PassThru</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>		<span class=k>if</span> <span class=p>(</span><span class=nv>$vscodeext</span><span class=p>.</span><span class=n>ExitCode</span> <span class=o>-ne</span> <span class=n>0</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>		<span class=nb>Write-Error</span> <span class=s2>&#34;Error installing VSCode extension&#34;</span>
+</span></span><span class=line><span class=cl>		<span class=n>exit</span> <span class=n>1</span>
+</span></span><span class=line><span class=cl>		<span class=p>}</span>
+</span></span><span class=line><span class=cl>	<span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>catch</span>
+</span></span><span class=line><span class=cl><span class=p>{</span>
+</span></span><span class=line><span class=cl>	<span class=nb>Write-Error</span> <span class=nv>$_</span><span class=p>.</span><span class=n>Exception</span>
+</span></span><span class=line><span class=cl>	<span class=n>exit</span> <span class=n>1</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></td></tr></table></div></div><p>Also create this file named <code>winrm_bootstrap.txt</code> with:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-powershell data-lang=powershell><span class=line><span class=cl><span class=p>&lt;</span><span class=n>powershell</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl><span class=nb>write-output</span> <span class=s2>&#34;Running User Data Script&#34;</span>
+</span></span><span class=line><span class=cl><span class=nb>write-host</span> <span class=s2>&#34;(host) Running User Data Script&#34;</span>
+</span></span><span class=line><span class=cl><span class=nb>Set-ExecutionPolicy</span> <span class=n>Unrestricted</span> <span class=n>-Scope</span> <span class=n>LocalMachine</span> <span class=n>-Force</span> <span class=n>-ErrorAction</span> <span class=n>Ignore</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># Don&#39;t set this before Set-ExecutionPolicy as it throws an error</span>
+</span></span><span class=line><span class=cl><span class=nv>$ErrorActionPreference</span> <span class=p>=</span> <span class=s2>&#34;stop&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># Remove HTTP listener</span>
+</span></span><span class=line><span class=cl><span class=nb>Remove-Item</span> <span class=n>-Path</span> <span class=n>WSMan</span><span class=err>:</span><span class=p>\</span><span class=n>Localhost</span><span class=p>\</span><span class=n>listener</span><span class=p>\</span><span class=n>listener</span><span class=p>*</span> <span class=n>-Recurse</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># Create a self-signed certificate to let ssl work</span>
+</span></span><span class=line><span class=cl><span class=nv>$Cert</span> <span class=p>=</span> <span class=nb>New-SelfSignedCertificate</span> <span class=n>-CertstoreLocation</span> <span class=n>Cert</span><span class=err>:</span><span class=p>\</span><span class=n>LocalMachine</span><span class=p>\</span><span class=n>My</span> <span class=n>-DnsName</span> <span class=s2>&#34;packer&#34;</span>
+</span></span><span class=line><span class=cl><span class=nb>New-Item</span> <span class=n>-Path</span> <span class=n>WSMan</span><span class=err>:</span><span class=p>\</span><span class=n>LocalHost</span><span class=p>\</span><span class=n>Listener</span> <span class=n>-Transport</span> <span class=n>HTTPS</span> <span class=n>-Address</span> <span class=p>*</span> <span class=n>-CertificateThumbPrint</span> <span class=nv>$Cert</span><span class=p>.</span><span class=n>Thumbprint</span> <span class=n>-Force</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c># WinRM</span>
+</span></span><span class=line><span class=cl><span class=nb>write-output</span> <span class=s2>&#34;Setting up WinRM&#34;</span>
+</span></span><span class=line><span class=cl><span class=nb>write-host</span> <span class=s2>&#34;(host) setting up WinRM&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=n>cmd</span><span class=p>.</span><span class=n>exe</span> <span class=p>/</span><span class=n>c</span> <span class=n>winrm</span> <span class=n>quickconfig</span> <span class=n>-q</span>
+</span></span><span class=line><span class=cl><span class=n>cmd</span><span class=p>.</span><span class=n>exe</span> <span class=p>/</span><span class=n>c</span> <span class=n>winrm</span> <span class=nb>set </span><span class=s2>&#34;winrm/config&#34;</span> <span class=s1>&#39;@{MaxTimeoutms=&#34;1800000&#34;}&#39;</span>
+</span></span><span class=line><span class=cl><span class=n>cmd</span><span class=p>.</span><span class=n>exe</span> <span class=p>/</span><span class=n>c</span> <span class=n>winrm</span> <span class=nb>set </span><span class=s2>&#34;winrm/config/winrs&#34;</span> <span class=s1>&#39;@{MaxMemoryPerShellMB=&#34;1024&#34;}&#39;</span>
+</span></span><span class=line><span class=cl><span class=n>cmd</span><span class=p>.</span><span class=n>exe</span> <span class=p>/</span><span class=n>c</span> <span class=n>winrm</span> <span class=nb>set </span><span class=s2>&#34;winrm/config/service&#34;</span> <span class=s1>&#39;@{AllowUnencrypted=&#34;true&#34;}&#39;</span>
+</span></span><span class=line><span class=cl><span class=n>cmd</span><span class=p>.</span><span class=n>exe</span> <span class=p>/</span><span class=n>c</span> <span class=n>winrm</span> <span class=nb>set </span><span class=s2>&#34;winrm/config/client&#34;</span> <span class=s1>&#39;@{AllowUnencrypted=&#34;true&#34;}&#39;</span>
+</span></span><span class=line><span class=cl><span class=n>cmd</span><span class=p>.</span><span class=n>exe</span> <span class=p>/</span><span class=n>c</span> <span class=n>winrm</span> <span class=nb>set </span><span class=s2>&#34;winrm/config/service/auth&#34;</span> <span class=s1>&#39;@{Basic=&#34;true&#34;}&#39;</span>
+</span></span><span class=line><span class=cl><span class=n>cmd</span><span class=p>.</span><span class=n>exe</span> <span class=p>/</span><span class=n>c</span> <span class=n>winrm</span> <span class=nb>set </span><span class=s2>&#34;winrm/config/client/auth&#34;</span> <span class=s1>&#39;@{Basic=&#34;true&#34;}&#39;</span>
+</span></span><span class=line><span class=cl><span class=n>cmd</span><span class=p>.</span><span class=n>exe</span> <span class=p>/</span><span class=n>c</span> <span class=n>winrm</span> <span class=nb>set </span><span class=s2>&#34;winrm/config/service/auth&#34;</span> <span class=s1>&#39;@{CredSSP=&#34;true&#34;}&#39;</span>
+</span></span><span class=line><span class=cl><span class=n>cmd</span><span class=p>.</span><span class=n>exe</span> <span class=p>/</span><span class=n>c</span> <span class=n>winrm</span> <span class=nb>set </span><span class=s2>&#34;winrm/config/listener?Address=*+Transport=HTTPS&#34;</span> <span class=s2>&#34;@{Port=</span><span class=se>`&#34;</span><span class=s2>5986</span><span class=se>`&#34;</span><span class=s2>;Hostname=</span><span class=se>`&#34;</span><span class=s2>packer</span><span class=se>`&#34;</span><span class=s2>;CertificateThumbprint=</span><span class=se>`&#34;</span><span class=p>$(</span><span class=nv>$Cert</span><span class=p>.</span><span class=n>Thumbprint</span><span class=p>)</span><span class=se>`&#34;</span><span class=s2>}&#34;</span>
+</span></span><span class=line><span class=cl><span class=n>cmd</span><span class=p>.</span><span class=n>exe</span> <span class=p>/</span><span class=n>c</span> <span class=n>netsh</span> <span class=n>advfirewall</span> <span class=n>firewall</span> <span class=nb>set </span><span class=n>rule</span> <span class=n>group</span><span class=p>=</span><span class=s2>&#34;remote administration&#34;</span> <span class=n>new</span> <span class=n>enable</span><span class=p>=</span><span class=n>yes</span>
+</span></span><span class=line><span class=cl><span class=n>cmd</span><span class=p>.</span><span class=n>exe</span> <span class=p>/</span><span class=n>c</span> <span class=n>netsh</span> <span class=n>firewall</span> <span class=n>add</span> <span class=n>portopening</span> <span class=n>TCP</span> <span class=n>5986</span> <span class=s2>&#34;Port 5986&#34;</span>
+</span></span><span class=line><span class=cl><span class=n>cmd</span><span class=p>.</span><span class=n>exe</span> <span class=p>/</span><span class=n>c</span> <span class=n>net</span> <span class=n>stop</span> <span class=n>winrm</span>
+</span></span><span class=line><span class=cl><span class=n>cmd</span><span class=p>.</span><span class=n>exe</span> <span class=p>/</span><span class=n>c</span> <span class=nb>sc </span><span class=n>config</span> <span class=n>winrm</span> <span class=n>start</span><span class=p>=</span> <span class=n>auto</span>
+</span></span><span class=line><span class=cl><span class=n>cmd</span><span class=p>.</span><span class=n>exe</span> <span class=p>/</span><span class=n>c</span> <span class=n>net</span> <span class=nb>start </span><span class=n>winrm</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>&lt;/</span><span class=n>powershell</span><span class=p>&gt;</span>
+</span></span></code></pre></td></tr></table></div></div><p>At last just run <code>packer build packer.hcl to create the ami</code></p><p>Note this will create a</p></article><hr><div class=page-end id=footer><div class=backlinks-container><h3>Backlinks</h3><ul class=backlinks><li><a href=/mgarden/DevOps/IAC/Packer/Packer-monthly-AMI-stradegy/ data-ctx="Packer AWS Windows" data-src=/DevOps/IAC/Packer/Packer-monthly-AMI-stradegy class=internal-link>Packer - monthly AMI stradegy</a></li></ul></div><div><script async src=https://cdn.jsdelivr.net/npm/d3@6.7.0/dist/d3.min.js integrity="sha256-+7jaYCp29O1JusNWHaYtgUn6EhuP0VaFuswhNV06MyI=" crossorigin=anonymous></script><h3>Interactive Graph</h3><div id=graph-container></div><style>:root{--g-node:var(--secondary);--g-node-active:var(--primary);--g-node-inactive:var(--visited);--g-link:var(--outlinegray);--g-link-active:#5a7282}</style><script src=https://shrestharajat.github.io/mgarden/js/graph.6579af7b10c818dbd2ca038702db0224.js></script></div></div><div id=contact_buttons><footer><p>Made by Rajat Shrestha using <a href=https://github.com/jackyzha0/quartz>Quartz</a>, © 2023</p><ul><li><a href=https://shrestharajat.github.io/mgarden/>Home</a></li><li><a href=https://linkedin.com/shrestharajat>Linkedin</a></li><li><a href=https://github.com/shrestharajat>GitHub</a></li></ul></footer></div></div></body></html>
