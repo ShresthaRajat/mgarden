@@ -1,0 +1,16 @@
+version: "3"
+services:
+  mgarden:
+    build: .
+    container_name: quartz
+    volumes:
+      - /home/rajat/Documents/mgarden:/quartz
+    ports:
+      - 1313:1313
+    # optional
+    environment:
+      - HUGO_BIND=0.0.0.0
+      - HUGO_BASEURL=http://localhost
+      - HUGO_PORT=1313
+      - HUGO_APPENDPORT=true
+      - HUGO_LIVERELOADPORT=1
