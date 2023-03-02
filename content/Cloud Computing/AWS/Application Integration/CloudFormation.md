@@ -1,0 +1,9 @@
+# CloudFormation
+#aws  #IaC #cloud
+
+
+A templating Language to write infrastructure configuration as code offered by [AWS](Cloud%20Computing/AWS/AWS.md)
+
+![Pasted image 20220724014004](Cloud%20Computing/AWS/Application%20Integration/Pasted%20image%2020220724014004.png)
+
+![Pasted image 20220724014404](Cloud%20Computing/AWS/Application%20Integration/Pasted%20image%2020220724014404.png)
