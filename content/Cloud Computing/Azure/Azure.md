@@ -1,5 +1,11 @@
-# Azure
-#azure #cloud #microsoft
+---
+title: Azure
+enableToc: true
+tags:
+- Azure
+- Cloud
+- Microsoft
+---
 
 ## Azure Geographies:
 -  US

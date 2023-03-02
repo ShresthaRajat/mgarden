@@ -1,5 +1,10 @@
-# AWS
-#aws #cloud #development 
+---
+title: AWS
+enableToc: true
+tags:
+- Aws
+- Cloud
+---
 
 AWS (Amazon Web Services) is one of the comprehensive, [](Cloud%20Computing/Cloud%20Providers.md#Cloud%20Providers) AWS services can offer an organization tools such as compute power, database storage and content delivery services.
 
