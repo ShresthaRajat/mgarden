@@ -1,4 +1,0 @@
-# Azure App Service
-#azure #cloud #compute 
-
-It is a cloud computing based platform for hosting websites in [[Azure]], created and operated by Microsoft. It is a [[PaaS]] which allows publishing Web apps running on multiple frameworks and written in different programming languages, including Microsoft proprietary ones and 3rd party ones.An Azure subscription is a logical container used to provision resources in Azure. It holds the details of all your resources like virtual machines (VMs), databases, and more. When you create an Azure resource like a VM, you identify the subscription it belongs to.
