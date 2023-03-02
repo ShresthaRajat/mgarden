@@ -4,10 +4,10 @@ name: Rajat Shrestha
 # whether to globally show the table of contents on each page
 # this can be turned off on a per-page basis by adding this to the
 # front-matter of that note
-enableToc: true
+enableToc: false
 
 # whether to by-default open or close the table of contents on each page
-openToc: true
+openToc: false
 
 # whether to display on-hover link preview cards
 enableLinkPreview: true
@@ -68,7 +68,7 @@ page_title:
   # links to show in the footer
 links:
   - link_name: Linkedin
-    link: https://linkedin.com/shrestharajat
+    link: https://linkedin.com/in/shrestharajat
   - link_name: GitHub
     link: https://github.com/shrestharajat
 

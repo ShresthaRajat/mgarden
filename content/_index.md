@@ -1,7 +1,6 @@
 ---
 title: M Garden.
 enableToc: true
-globalgraph: true
 ---
 
 Welcome to my second brain where I store my notes on the topics that I am currently studying. 
