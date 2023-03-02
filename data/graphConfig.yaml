@@ -34,4 +34,13 @@ globalGraph:
 ### For all graphs ###
 
 paths:
-  - /moc: "#4388cc"
+  - /Cloud-Computing/AWS: "#dea83c"
+  - /Cloud-Computing/Azure: "#2c59de"
+  - /Cyber-Security: "#d92121"
+  - /Microservice-Architecture/Docker: "#71bff0"
+  - /Operation-Tools: "#cfc669"
+  - /DevOps: "#e813e4"
+  - /DevOps/IAC/Terraform: "#9613e8"
+  - /Microservice-Architecture/Kubernetes: "#090cba"
+
+
