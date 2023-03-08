@@ -36,7 +36,7 @@ CloudTrail can be set to deliver events to a CloudWatch Logs.
 
 ## Management vs Data Events
 
-![Pasted image 20220724020553](Cloud%20Computing/AWS/Monitoring/Pasted%20image%2020220724020553.png)
+![Pasted image 20220724020553](Attachments/Pasted%20image%2020220724020553.png)
 
 
-- [ ] ![Pasted image 20220724020844](Cloud%20Computing/AWS/Monitoring/Pasted%20image%2020220724020844.png)
+- [ ] ![Pasted image 20220724020844](Attachments/Pasted%20image%2020220724020844.png)

@@ -3,7 +3,7 @@
 
 
 
-![Pasted image 20221210223636](Microservice%20Architecture/Attachments/Pasted%20image%2020221210223636.png)
+![Pasted image 20221210223636](Attachments/Pasted%20image%2020221210223636.png)
 
 Configuring processes and communications
 	Configure activity traceability 
@@ -14,4 +14,4 @@ Design and implement build and release pipelines 45%
 Develop a security and compliance plan
 Implement an instrumentation strategy
 
-![Pasted image 20221210213337](Microservice%20Architecture/Attachments/Pasted%20image%2020221210213337.png)
+![Pasted image 20221210213337](Attachments/Pasted%20image%2020221210213337.png)

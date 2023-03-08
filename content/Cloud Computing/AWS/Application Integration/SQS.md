@@ -53,7 +53,7 @@ from min of 60 seconds to max of 14 days
 
 
 ## Standard Queues
-![Pasted image 20220724103848](Cloud%20Computing/AWS/Application%20Integration/Pasted%20image%2020220724103848.png)
+![Pasted image 20220724103848](Attachments/Pasted%20image%2020220724103848.png)
 Allows nearly-unlimited number of transactions per second
 Guarantees that a message will be delivered at least once.
 Which means more than one copy of message could be potentially delivered out of order.
@@ -61,7 +61,7 @@ Provides best-effort ordering that helps ensure a message is generally delivered
 
 
 ## FIFO Queue
-![Pasted image 20220724104025](Cloud%20Computing/AWS/Application%20Integration/Pasted%20image%2020220724104025.png)
+![Pasted image 20220724104025](Attachments/Pasted%20image%2020220724104025.png)
 
 supports multiple ordered message groups within a single queue
 Limited to 300 transactions per second
@@ -72,8 +72,8 @@ To prevent another app from reading a message which is already being processed b
 
 
 ## polling
-![Pasted image 20220724104406](Cloud%20Computing/AWS/Application%20Integration/Pasted%20image%2020220724104406.png)
+![Pasted image 20220724104406](Attachments/Pasted%20image%2020220724104406.png)
 
 
 
-![Pasted image 20220724104428](Cloud%20Computing/AWS/Application%20Integration/Pasted%20image%2020220724104428.png)
+![Pasted image 20220724104428](Attachments/Pasted%20image%2020220724104428.png)

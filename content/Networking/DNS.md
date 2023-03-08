@@ -1,4 +1,4 @@
-# DNS
+# Domain Name Server (DNS)
 #networking 
 
 Domain Name System (DNS) is a service which handles converting a domain name into a routable[#Internet Protocol IP address](#Internet%20Protocol%20IP%20address), allowing your personal computer to access the specific servers.

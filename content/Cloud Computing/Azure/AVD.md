@@ -1,4 +1,4 @@
-# Azure Virtual Desktop
+# Azure Virtual Desktop (AVD)
 #cloud #Azure #virtual-machines #compute 
 
 Azure Virtual Desktop, (formerly known as Windows Virtual Desktop) is a Microsoft [Azure](Cloud%20Computing/Azure/Azure.md)-based system for [virtualizing](virtualizing) its Windows operating systems,  aimed at enterprise customers rather than at individual users.

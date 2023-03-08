@@ -68,7 +68,7 @@ A fully managed Serverless solution provided by aws for RDBMS.
 
 
 
-![Pasted image 20220724010918](Cloud%20Computing/AWS/Databases/Pasted%20image%2020220724010918.png)
+![Pasted image 20220724010918](Attachments/Pasted%20image%2020220724010918.png)
 
-![Pasted image 20220724011034](Cloud%20Computing/AWS/Databases/Pasted%20image%2020220724011034.png)
+![Pasted image 20220724011034](Attachments/Pasted%20image%2020220724011034.png)
 

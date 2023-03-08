@@ -25,9 +25,9 @@ Lambda is **Cheap**, **Serverless**, and **Scales Automatically**.
 Lambda is used to glue different services together so the use cases are endless.
 Example of use cases are:
 1. Processing Thumbnails
-![Pasted image 20220724095845](Cloud%20Computing/AWS/Compute/Pasted%20image%2020220724095845.png)
+![Pasted image 20220724095845](Attachments/Pasted%20image%2020220724095845.png)
 2. Contact Email Form
-![Pasted image 20220724095857](Cloud%20Computing/AWS/Compute/Pasted%20image%2020220724095857.png)
+![Pasted image 20220724095857](Attachments/Pasted%20image%2020220724095857.png)
 
 
 ## Triggers
@@ -65,4 +65,4 @@ This can cause delays in the User Experience.
 
 Can be addressed through Pre Warning.
 
-![Pasted image 20220724100910](Cloud%20Computing/AWS/Compute/Pasted%20image%2020220724100910.png)
+![Pasted image 20220724100910](Attachments/Pasted%20image%2020220724100910.png)

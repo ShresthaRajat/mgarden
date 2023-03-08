@@ -6,7 +6,7 @@ An opensource Container Management or Container **Orchestration tool** which bas
 
 It is developed by google and is later donated to CNCF. It is fully opensource and is made using [golang](golang). Kubernetes is often abbreviated as **K8s**.
 
-![Pasted image 20221016000801](Microservice%20Architecture/Attachments/Pasted%20image%2020221016000801.png)
+![Pasted image 20221016000801](Attachments/Pasted%20image%2020221016000801.png)
 
 
 ## Key words
@@ -31,15 +31,15 @@ Kubernetes works with the help of a main Kubenetes master application which runs
 
 All of these services work together to form a basic kubernetes workflow with the API provided by the master node Kubernetes daemon, Image registry providing the container images with essential application files and instructions, master nodes, and worker nodes.
 
-![Pasted image 20220928221909](Microservice%20Architecture/Attachments/Pasted%20image%2020220928221909.png)
+![Pasted image 20220928221909](Attachments/Pasted%20image%2020220928221909.png)
 
 A general kubernetes cluster consists of the following components:
 1. Master Node ((*Required*) A node with Kubernetes Master installed)
 2. Worker Nodes (Other nodes which provides the compute capabilities to the applications)
 
-![Pasted image 20220928223829](Microservice%20Architecture/Attachments/Pasted%20image%2020220928223829.png)
+![Pasted image 20220928223829](Attachments/Pasted%20image%2020220928223829.png)
 
 
 Kubernetes allows us to auto scale application automatically, by creating them from a container registry, manage them, enable several modes of communication between the containers, and also give the admin the options to secure their resources. 
 
-![Pasted image 20220928221530](Microservice%20Architecture/Attachments/Pasted%20image%2020220928221530.png)
+![Pasted image 20220928221530](Attachments/Pasted%20image%2020220928221530.png)

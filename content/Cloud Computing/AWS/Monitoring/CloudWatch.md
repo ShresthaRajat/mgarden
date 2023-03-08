@@ -3,7 +3,7 @@
 
 monitoring solution for all of the various AWS resources by [AWS](Cloud%20Computing/AWS/AWS.md).
 
-![Pasted image 20220724014551](Cloud%20Computing/AWS/Monitoring/Pasted%20image%2020220724014551.png)
+![Pasted image 20220724014551](Attachments/Pasted%20image%2020220724014551.png)
 
 
 ## Cloudwatch-Logs
@@ -50,4 +50,4 @@ Create custom dashboards from CloudWatch metrics.
 
 
 
-![Pasted image 20220724015847](Cloud%20Computing/AWS/Monitoring/Pasted%20image%2020220724015847.png)
+![Pasted image 20220724015847](Attachments/Pasted%20image%2020220724015847.png)

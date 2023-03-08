@@ -14,11 +14,11 @@ IAM allows management of access of users and resources
 
 **IAM Policies** - JSON documents granting permissions for a specific user, group, or role to access the services. Policies are attached to **IAM Identities**.
 
-![Pasted image 20220715093815](Cloud%20Computing/AWS/Security%20&%20Identity/Pasted%20image%2020220715093815.png)
+![Pasted image 20220715093815](Attachments/Pasted%20image%2020220715093815.png)
 
 
 ## IAM Policies
-![Pasted image 20220715094058](Cloud%20Computing/AWS/Security%20&%20Identity/Pasted%20image%2020220715094058.png)
+![Pasted image 20220715094058](Attachments/Pasted%20image%2020220715094058.png)
 
 ## Managed vs Customer vs Inline policies
 
@@ -55,4 +55,4 @@ Administrator cannot enforce users to have MFA
 
 The Administrator cannot create a policy requiring MFA to access certain resources.
 
-![Pasted image 20220719151854](Cloud%20Computing/AWS/Security%20&%20Identity/Pasted%20image%2020220719151854.png)
+![Pasted image 20220719151854](Attachments/Pasted%20image%2020220719151854.png)

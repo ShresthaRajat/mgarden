@@ -2,8 +2,8 @@
 #docker #windows #aws 
 
 
-To run windows containers in docker within [AWS](Cloud%20Computing/AWS/AWS.md), launch an [Elastic Compute Cloud EC2](Cloud%20Computing/AWS/Compute/Elastic%20Compute%20Cloud%20EC2.md)with an Windows_Server-2022-English-Core-ContainersLatest-2022.11.10
-![Pasted image 20230105145020](Microservice%20Architecture/Attachments/Pasted%20image%2020230105145020.png)
+To run windows containers in docker within [AWS](Cloud%20Computing/AWS/AWS.md), launch an [EC2](Cloud%20Computing/AWS/Compute/EC2.md)with an Windows_Server-2022-English-Core-ContainersLatest-2022.11.10
+![Pasted image 20230105145020](Attachments/Pasted%20image%2020230105145020.png)
 
 Make sure to give it plenty of cpu and ram resources so it can peform well.
 
@@ -62,14 +62,14 @@ https://learn.microsoft.com/en-us/virtualization/windowscontainers/about/
 
 Preparing windows for containers:
 https://learn.microsoft.com/en-us/virtualization/windowscontainers/quick-start/set-up-environment?tabs=containerd
-![Pasted image 20230106173933](Microservice%20Architecture/Attachments/Pasted%20image%2020230106173933.png)
-![Pasted image 20230106173955](Microservice%20Architecture/Attachments/Pasted%20image%2020230106173955.png)
+![Pasted image 20230106173933](Attachments/Pasted%20image%2020230106173933.png)
+![Pasted image 20230106173955](Attachments/Pasted%20image%2020230106173955.png)
 https://hub.docker.com/_/microsoft-dotnet-framework-runtime/
-![Pasted image 20230106182532](Microservice%20Architecture/Attachments/Pasted%20image%2020230106182532.png)
+![Pasted image 20230106182532](Attachments/Pasted%20image%2020230106182532.png)
 
 
 windows vs linux container service
-![Pasted image 20230106173745](Microservice%20Architecture/Attachments/Pasted%20image%2020230106173745.png)
+![Pasted image 20230106173745](Attachments/Pasted%20image%2020230106173745.png)
 
 
 https://www.youtube.com/watch?v=RjwzADNGUUg

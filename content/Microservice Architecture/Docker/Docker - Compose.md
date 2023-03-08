@@ -8,7 +8,7 @@ If you want to setup multi container application which requires different contai
 Compose revolves around a config file called `docker-compose.yml`. In it we define all of our services. Think of a service as a part of your application; a database or API for example. All of our services rely on an image with which we create a container. Spinning up a container can have many options; how these options are configured will be stored in the yml file.
 
 
-![Pasted image 20221017161114](Microservice%20Architecture/Attachments/Pasted%20image%2020221017161114.png)
+![Pasted image 20221017161114](Attachments/Pasted%20image%2020221017161114.png)
 
 ## Features:
 -   [Multiple isolated environments on a single host](https://docs.docker.com/compose/#multiple-isolated-environments-on-a-single-host)

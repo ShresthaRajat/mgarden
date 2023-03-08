@@ -30,10 +30,10 @@ Uses Shards, retains data, and requires Consumers.
 
 ### Kinesis Data Stream
   
-![Pasted image 20220724152204](Cloud%20Computing/AWS/Application%20Integration/Pasted%20image%2020220724152204.png)
+![Pasted image 20220724152204](Attachments/Pasted%20image%2020220724152204.png)
 
 ### Kinesis Video Streams
-![Pasted image 20220724152502](Cloud%20Computing/AWS/Application%20Integration/Pasted%20image%2020220724152502.png)
+![Pasted image 20220724152502](Attachments/Pasted%20image%2020220724152502.png)
 
 ## Kinesis Data Firehose
 
@@ -45,7 +45,7 @@ Uses Shards, retains data, and requires Consumers.
 - Data is directly to the AWS store.
 - Inexpensive
 
-  ![Pasted image 20220724152311](Cloud%20Computing/AWS/Application%20Integration/Pasted%20image%2020220724152311.png)
+  ![Pasted image 20220724152311](Attachments/Pasted%20image%2020220724152311.png)
   
   
   
@@ -76,4 +76,4 @@ Each shard is a sequence of one or more data records and provides a fixed unit o
   
 
 
-![Pasted image 20220724152615](Cloud%20Computing/AWS/Application%20Integration/Pasted%20image%2020220724152615.png)
+![Pasted image 20220724152615](Attachments/Pasted%20image%2020220724152615.png)

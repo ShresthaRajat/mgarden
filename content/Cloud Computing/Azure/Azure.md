@@ -7,6 +7,9 @@ tags:
 - Microsoft
 ---
 
+# Azure
+#cloud #Azure #Microsoft 
+
 ## Azure Geographies:
 -  US
 -  Azure Government US
@@ -22,7 +25,7 @@ One region is updated at a time to ensure no outages
 Services are relied on pared region for Disaster Recovery
 
 ### Region Types and Service Availability
-![Pasted image 20230210163119](Microservice%20Architecture/Attachments/Pasted%20image%2020230210163119.png)
+![Pasted image 20230210163119](Attachments/Pasted%20image%2020230210163119.png)
 
 ### Special Regions
 Has specialised regions to meet compliance or legal reasons
@@ -51,7 +54,7 @@ The Regions with atleast 3 AZs are:
 - Data-centers within a region will be isolate from each other.
 - For high availability it is common to run workloads on at least 3AZs
 
-![Pasted image 20230210163519](Microservice%20Architecture/Attachments/Pasted%20image%2020230210163519.png)
+![Pasted image 20230210163519](Attachments/Pasted%20image%2020230210163519.png)
 
 ### Fault and Update Domain
 
@@ -61,7 +64,7 @@ The Regions with atleast 3 AZs are:
 
 **Availability Set** is a logical grouping that can be configured in Azure to ensure that the VMs are placed in different fault/update domains to avoid downtime.
 
-![Pasted image 20230210164159](Microservice%20Architecture/Attachments/Pasted%20image%2020230210164159.png)
+![Pasted image 20230210164159](Attachments/Pasted%20image%2020230210164159.png)
 
 
 ---

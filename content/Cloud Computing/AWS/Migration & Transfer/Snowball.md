@@ -45,4 +45,4 @@ AWS personnel will help you connect your network to the snowmobile and when data
 - an escort security vehicle while in transit (optional)
 
 
-![Pasted image 20220714014138](Cloud%20Computing/AWS/Storage/Pasted%20image%2020220714014138.png)
+![Pasted image 20220714014138](Attachments/Pasted%20image%2020220714014138.png)

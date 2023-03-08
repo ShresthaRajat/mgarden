@@ -8,12 +8,12 @@ In AKS the users will just need to pay for the nodes that are being used. Which 
 ## Control plane
 When you create an AKS cluster, a control plane is automatically created and configured. This control plane is provided at no cost as a managed Azure resource abstracted from the user. You only pay for the nodes attached to the AKS cluster. The control plane and its resources reside only on the region where you created the cluster.
 
-![Pasted image 20220928225117](Microservice%20Architecture/Attachments/Pasted%20image%2020220928225117.png)
+![Pasted image 20220928225117](Attachments/Pasted%20image%2020220928225117.png)
 
 
 ## Node pools
 Node pools use virtual machine scale sets as the underlying infrastructure to allow the cluster to scale the number of nodes in a node pool. New nodes created in the node pool will always be the same size as you specified when you created the node pool.
-![Pasted image 20220930162008](Microservice%20Architecture/Attachments/Pasted%20image%2020220930162008.png)
+![Pasted image 20220930162008](Attachments/Pasted%20image%2020220930162008.png)
 
 
 ## Networking
@@ -58,9 +58,9 @@ Ingress controllers create a reverse-proxy server that automatically allows for 
 - Terminates SSL/TLS requests.
 - Offers name-based virtual hosting.
 
-![Pasted image 20220930162708](Microservice%20Architecture/Attachments/Pasted%20image%2020220930162708.png)
+![Pasted image 20220930162708](Attachments/Pasted%20image%2020220930162708.png)
 
-![Pasted image 20220930162112](Microservice%20Architecture/Attachments/Pasted%20image%2020220930162112.png)
+![Pasted image 20220930162112](Attachments/Pasted%20image%2020220930162112.png)
 
 
 ## Demo

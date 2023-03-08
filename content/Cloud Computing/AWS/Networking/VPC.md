@@ -6,17 +6,12 @@ Amazon Virtual Private Cloud (VPC) is a commercial cloud computing service that 
 
 [VPC FAQ](https://aws.amazon.com/vpc/faqs/)
 
-A 
+- A VPC is like a digital data centre.
+- All VPC traffic can be logged via Flowlogs.
+- In an Amazon VPC, an EC2 instance retains it’s private IP address when the instance is stopped.
+- A VPC consists of following components:
 
-A VPC is like a digital data centre.
-All VPC traffic can be logged via Flowlogs.
-In an Amazon VPC, an EC2 instance retains it’s private IP address when the instance is stopped.
-A VPC consists of following components:
-
-![Pasted image 20220714145840](Cloud%20Computing/AWS/Networking/Pasted%20image%2020220714145840.png)
-
-
-
+![Pasted image 20220714145840](Attachments/Pasted%20image%2020220714145840.png)
 
 Key Features and Limitations:
 
@@ -29,6 +24,16 @@ Key Features and Limitations:
 - Some things like NAT Gateway, VPC Endpoints, VPN Gateway and Customer Gateway are not free
 - DNS host names are disabled by default.
 
+
+## Subnets
+
+
+## Routing Tables
+
+Main route table is implicitly associated with subnets that haven’t been  explicitly associated with a route table
+
+![](Attachments/Pasted%20image%2020230305153126.png)
+![](Attachments/Pasted%20image%2020230305153512.png)
 
 ## VPC Peering
 
@@ -64,7 +69,6 @@ In VPCs, even though we have these different subnets, we need to allow traffic t
 
 In addition to a list of IP ranges that our Route Table connect traffic between, it also has **Subnet Associations**. Simply put, these are "which subnets use this route table."
 
-## Direct Connect 
 
 
 ## Internet Gateway
@@ -103,10 +107,10 @@ Horizontally scaled, redundant, and highly available.
 
 Allows secure communication between instances and services without adding availability risks or bandwidth constraints on your traffic.
 
-![Pasted image 20220715002212](Cloud%20Computing/AWS/Networking/Pasted%20image%2020220715002212.png)
+![Pasted image 20220715002212](Attachments/Pasted%20image%2020220715002212.png)
 ### Interface endpoints
 
-![Pasted image 20220715002052](Cloud%20Computing/AWS/Networking/Pasted%20image%2020220715002052.png)
+![Pasted image 20220715002052](Attachments/Pasted%20image%2020220715002052.png)
 
 
 ### Gateway Endpoint
@@ -133,9 +137,9 @@ Cannot be tagged like other resources
 can be delivered to S3 or cloudwatch logs
 some instance traffic can not be monitored
 
-![Pasted image 20220715002555](Cloud%20Computing/AWS/Networking/Pasted%20image%2020220715002555.png)
+![Pasted image 20220715002555](Attachments/Pasted%20image%2020220715002555.png)
 
-![Pasted image 20220715002614](Cloud%20Computing/AWS/Networking/Pasted%20image%2020220715002614.png)
+![Pasted image 20220715002614](Attachments/Pasted%20image%2020220715002614.png)
 
 ## VPC Virtual Private Gateway
 
@@ -147,9 +151,12 @@ An Amazon VPC VPN connection links your data-center (or network) to your Amazon 
 
 ### CIDR - Classless Inter-domain Routing
 
-**The first four IP addresses and the last IP address in each subnet CIDR block are not available for you to use, and cannot be assigned to an instance.**
 
-i.e.
+• CIDR block size can be between /16 and /28
+• The CIDR block must not overlap with any existing CIDR block
+that's associated with the VPC
+• You cannot increase or decrease the size of an existing CIDR block
+• The first four and last IP address are not available for use
 
 -   10.0.0.0: Network address.
 -   10.0.0.1: Reserved by AWS for the VPC router.
@@ -158,7 +165,7 @@ i.e.
 -   10.0.0.255: Network broadcast address. We do not support broadcast in a VPC, therefore we reserve this address.
 
 Network masks:
-
+![](Attachments/Pasted%20image%2020230305152101.png)
 -   /16 - supports up to 65,536 IP addresses. Best for large networks.
 -   /24 - supports up to 256 IP addresses. Best for smaller networks.
 -   /27 - supports up to 32 IP addresses
@@ -190,8 +197,8 @@ Each NACL contains a set of rules that can allow or deny traffic in and out of t
 Stateless
 A default NACL denies all traffic 
 
-![Pasted image 20220715002905](Cloud%20Computing/AWS/Networking/Pasted%20image%2020220715002905.png)
-![Pasted image 20220715002945](Cloud%20Computing/AWS/Networking/Pasted%20image%2020220715002945.png)
+![Pasted image 20220715002905](Attachments/Pasted%20image%2020220715002905.png)
+![Pasted image 20220715002945](Attachments/Pasted%20image%2020220715002945.png)
 
 
 ## Security Groups
@@ -205,7 +212,7 @@ There are no deny rules. All inbound traffic are denied as default unless there 
 these are stateful
 changes take effect immediately.
 
-![Pasted image 20220715003259](Cloud%20Computing/AWS/Networking/Pasted%20image%2020220715003259.png)
+![Pasted image 20220715003259](Attachments/Pasted%20image%2020220715003259.png)
 
 
 #### Limits
@@ -214,7 +221,7 @@ can have upto 10,000 SGs in a single region. (Default is 2,500)
 can have 60 inbound and 60 outbound rules per SG
 16 SG per ENI (default is 5)
 
-![Pasted image 20220715003440](Cloud%20Computing/AWS/Networking/Pasted%20image%2020220715003440.png)
+![Pasted image 20220715003440](Attachments/Pasted%20image%2020220715003440.png)
 
 
 ## Network address translation (NAT)
@@ -225,8 +232,8 @@ In a private network NAT can help gain outbound access to the internet by using 
 If there are two networks which have conflicting network addresses, NAT can be used to make the addresses more agreeable
 
 ### NAT Instances vs NAT Gateways
-![Pasted image 20220715003856](Cloud%20Computing/AWS/Networking/Pasted%20image%2020220715003856.png)
+![Pasted image 20220715003856](Attachments/Pasted%20image%2020220715003856.png)
 
 
-![Pasted image 20220715004501](Cloud%20Computing/AWS/Networking/Pasted%20image%2020220715004501.png)
+![Pasted image 20220715004501](Attachments/Pasted%20image%2020220715004501.png)
 

@@ -20,7 +20,7 @@ Strongly Consistent Reads
 
 
 ## Table Structure
-![Pasted image 20220724013608](Cloud%20Computing/AWS/Databases/Pasted%20image%2020220724013608.png)
+![Pasted image 20220724013608](Attachments/Pasted%20image%2020220724013608.png)
 
 
 
@@ -28,9 +28,9 @@ Strongly Consistent Reads
 ## Reads:
 When data needs to be updated it has to write updates to all copies. It is possible for data to be inconsistent if you are reading from a copy which has yet to be updated. You have the ability to choose the read consistency in DynamoDB to meet your needs.
 
-![Pasted image 20220724013641](Cloud%20Computing/AWS/Databases/Pasted%20image%2020220724013641.png)
+![Pasted image 20220724013641](Attachments/Pasted%20image%2020220724013641.png)
 
 
 
 
-![Pasted image 20220724013804](Cloud%20Computing/AWS/Databases/Pasted%20image%2020220724013804.png)
+![Pasted image 20220724013804](Attachments/Pasted%20image%2020220724013804.png)

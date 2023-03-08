@@ -16,7 +16,7 @@ Azure Virtual Network (VNet) is the fundamental building block for your private 
 -   **Communicate with on-premises networks**: You can connect your on-premises computers and networks to a virtual network using [VPN Gateway](https://learn.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-about-vpngateways) or [ExpressRoute](https://learn.microsoft.com/en-us/azure/expressroute/expressroute-introduction).
     
 
-When you design a network from bottom up, you gather some basic information. This information could be number of hosts, network devices, number of [subnets](subnets), routing between subnets, isolation domains such as VLANs. This information helps in sizing the network and security devices as well creating the architecture to support applications and services.
+When you design a network from bottom up, you gather some basic information. This information could be number of hosts, network devices, number of [Subnet](Cloud%20Computing/AWS/Networking/Subnet.md), routing between subnets, isolation domains such as VLANs. This information helps in sizing the network and security devices as well creating the architecture to support applications and services.
 
 When you plan to deploy your applications and services in Azure, you will start by creating a logical boundary in Azure, which is called a virtual network. This virtual network is akin to a physical network boundary. As it is a virtual network, you don't need physical gear but still have to plan for the logical entities such as IP addresses, IP subnets, routing, and policies.
 
@@ -32,6 +32,6 @@ A virtual network is a virtual, isolated portion of the Azure public network. Ea
     
 -   A [network interface](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-network-network-interface) enables a VM to communicate with other resources. Each network interface has one or more private IP addresses assigned to it. How many network interfaces and [private IP addresses](https://learn.microsoft.com/en-us/azure/virtual-network/private-ip-addresses) do you require in a virtual network? There are [limits](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits?toc=/azure/virtual-network/toc.json) to the number of network interfaces and private IP addresses that you can have within a virtual network.
 
-[Azure NSG](Cloud%20Computing/Azure/Azure%20NSG.md)
+[NSG](Cloud%20Computing/Azure/NSG.md)
 
 [Azure NACL](Cloud%20Computing/Azure/Azure%20NACL.md)

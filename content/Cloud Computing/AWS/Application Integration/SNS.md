@@ -6,7 +6,7 @@ A simple service by [AWS](Cloud%20Computing/AWS/AWS.md) enabling users to send n
 Suscribe and send notifications via text message, push notification,
 
 
-![Pasted image 20220724104926](Cloud%20Computing/AWS/Application%20Integration/Pasted%20image%2020220724104926.png)
+![Pasted image 20220724104926](Attachments/Pasted%20image%2020220724104926.png)
 
 
 ## SNS Topics
@@ -19,4 +19,4 @@ A topic is able to deliver to multiple protocols at once eg. email, text message
 ## SNS-Subscriptions
 A subscription can only subscribe to one protocol and one topic.
 
-![Pasted image 20220724124451](Cloud%20Computing/AWS/Application%20Integration/Pasted%20image%2020220724124451.png)
+![Pasted image 20220724124451](Attachments/Pasted%20image%2020220724124451.png)

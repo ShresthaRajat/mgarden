@@ -22,13 +22,13 @@ Cloud is basically someone else's computer. This practice abstracts away the hea
 ### IaaS
 	Infrastructure as a Service barebone services that needs to be 
 
-![Cloud *aaS](Cloud%20Computing/AWS/Cloud%20*aaS.png)
+![Cloud *aaS](Attachments/Cloud%20*aaS.png)
 ## Cloud Computing Deployment Models
 
 ### **Cloud**
 ### **Hybrid**
 ### **On-Premise**
-![cloud-stratagies](Cloud%20Computing/AWS/cloud-stratagies.png)
+![cloud-stratagies](Attachments/cloud-stratagies.png)
 
 [AWS](Cloud%20Computing/AWS/AWS.md)
 

@@ -5,6 +5,8 @@ A CDN service provided by [AWS](Cloud%20Computing/AWS/AWS.md).
 
 A CDN is a distributed network of servers which delivers web pages and contents to users based on their geographical location, the origin of the webpage.
 
+![](Attachments/Pasted%20image%2020230305151823.png)
+
 ## Core Components
 
 ### Origin
@@ -37,7 +39,7 @@ Behaveour
 ## Cloudfront-Lambda@Edge
 
 We use these functions to overrice the behaviour of request and responces
-![Pasted image 20220723225149](Cloud%20Computing/AWS/Networking/Pasted%20image%2020220723225149.png)
+![Pasted image 20220723225149](Attachments/Pasted%20image%2020220723225149.png)
 
  A common use case will be using it to authenticate users before they can access secured web content which needs to be authorised via cognito or similar case
 
@@ -54,4 +56,4 @@ In order to use Signed URLs or Signed Cookies you need to have an OAI
 
 
 
-![Pasted image 20220723230258](Cloud%20Computing/AWS/Networking/Pasted%20image%2020220723230258.png)
+![Pasted image 20220723230258](Attachments/Pasted%20image%2020220723230258.png)

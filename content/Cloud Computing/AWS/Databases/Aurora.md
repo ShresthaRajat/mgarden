@@ -30,7 +30,7 @@ Storage is self-healing, in that data blocks and disks are continiously scanned 
 
 There are 2 types of replicas available:
 
-![Pasted image 20220724011616](Cloud%20Computing/AWS/Databases/Pasted%20image%2020220724011616.png)
+![Pasted image 20220724011616](Attachments/Pasted%20image%2020220724011616.png)
 
 
 
@@ -43,4 +43,4 @@ Apps used a few times several times per day or week.. eg. low accessed databases
 pay for database storage and the database capacity and I/O your database consumes while it is active
 
 
-![Pasted image 20220724011843](Cloud%20Computing/AWS/Databases/Pasted%20image%2020220724011843.png)
+![Pasted image 20220724011843](Attachments/Pasted%20image%2020220724011843.png)
