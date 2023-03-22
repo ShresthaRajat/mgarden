@@ -1,5 +1,7 @@
 # Cheet Sheets
+#Azure #cloud 
 
+[Azure](Cloud%20Computing/Azure/Azure.md) certification for data foundations DP-900 done after [DP 900](Cloud%20Computing/Azure/DP%20900.md)
 **Power BI**
 ![Pasted image 20230218113522](Attachments/Pasted%20image%2020230218113522.png)
 ![Pasted image 20230218114405](Attachments/Pasted%20image%2020230218114405.png)

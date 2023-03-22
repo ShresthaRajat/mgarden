@@ -1,5 +1,5 @@
 # Packer: Creating a base windows server in AWS
-#cloud #hasicorp #IaC #terraform #windows 
+#cloud #aws #hasicorp #IaC #terraform #windows 
 
 This example uses the hcl format packer file to create a [AMI](AMI) in [AWS](Cloud%20Computing/AWS/AWS.md) through [Packer](DevOps/IAC/Packer/Packer.md). This demo builds an [Windows](Windows) AMI based on windows server 2016 with containers with custom applications (Datadog agent and dotnet framework, firefox, putty, devtools).
 

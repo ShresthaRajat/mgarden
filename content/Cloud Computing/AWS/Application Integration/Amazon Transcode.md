@@ -4,7 +4,7 @@
 A service from [AWS](Cloud%20Computing/AWS/AWS.md) to change format of Videos stored in AWS.
 
 • Transcodes video files to various formats / outputs
-• AWS Elemental [MediaConver](MediaConver)t is a new service that provides
+• AWS Elemental [MediaConvert](MediaConvert) is a new service that provides
 more functionality and may be better for new use cases
 • Some features are only available on Elastic Transcoder such
 as:

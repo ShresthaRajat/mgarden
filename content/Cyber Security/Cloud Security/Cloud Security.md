@@ -11,6 +11,6 @@
 [Virtual Networks](Cyber%20Security/Cloud%20Security/Virtual%20Networks.md)
 [WAF](Cyber%20Security/Cloud%20Security/WAF.md)
 [Zero-Trust](Cyber%20Security/Cloud%20Security/Zero-Trust.md)
-[Encryption](Cyber%20Security/Encryption.md)
+[Encryption](Cyber%20Security/Cryptography/Encryption.md)
 [Key Storage](Key%20Storage)
 

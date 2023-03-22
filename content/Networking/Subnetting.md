@@ -3,7 +3,7 @@
 
 A subnet, or sub-network, is a [network](https://www.cloudflare.com/learning/network-layer/what-is-the-network-layer/) inside a network. Subnets make networks more efficient. Through subnetting, network traffic can travel a shorter distance without passing through unnecessary [routers](https://www.cloudflare.com/learning/network-layer/what-is-routing/) to reach its destination.
 
-![zSubnet2.png](Networking/zSubnet2.png.png)
+![zSubnet2.png](Attachments/zSubnet2.png.png)
 Like the postal service, networks are more efficient when messages travel as directly as possible. When a network receives data packets from another network, it will sort and route those packets by subnet so that the packets do not take an inefficient route to their destination.
 
 ## What is an IP address?

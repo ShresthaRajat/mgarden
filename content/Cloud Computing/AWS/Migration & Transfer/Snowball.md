@@ -1,9 +1,13 @@
-# Snowball
+# Snowball Family
 #aws #cloud #snowball #storage #cloud-migration
 
+This service is for migrating large volume of data to [AWS](Cloud%20Computing/AWS/AWS.md) with Low Cost data transfer service (Petabyte Scale). Snowball can reduce the cost by 1/5th and eliminate the need for bandwidth changes. 
 
-Low Cost data transfer service by [AWS](Cloud%20Computing/AWS/AWS.md) (Petabyte Scale). Snowball can reduce the cost by 1/5th
+![](Attachments/Pasted%20image%2020230312221507.png)
 
+![](Attachments/Pasted%20image%2020230312221629.png)
+
+## Snowball 
 Features:
 - E-ink display (shipping information)
 - Tamper and weather proof

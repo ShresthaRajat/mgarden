@@ -12,7 +12,7 @@ It helps expose routes to public from various different apps hosted within a clu
 3. To perform path or host based traffic routing
 
 ## Architecture:
-![Pasted image 20221012140156](Microservice%20Architecture/Kubernetes/Pasted%20image%2020221012140156.png)
+![Pasted image 20221012140156](Attachments/Pasted%20image%2020221012140156.png)
 
 ## Demo:
 

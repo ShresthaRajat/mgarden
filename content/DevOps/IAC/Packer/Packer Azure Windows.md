@@ -1,5 +1,5 @@
 # Packer: Creating a generalized IIS windows server in Azure
-#cloud #hasicorp #IaC #terraform #windows 
+#cloud #azure #hasicorp #IaC #terraform #windows 
 
 This example uses the json format packer file to create a VM Image in [Azure](Cloud%20Computing/Azure/Azure.md) through [Packer](DevOps/IAC/Packer/Packer.md). This demo builds an [Windows](Windows) Image and installs IIS server.
 

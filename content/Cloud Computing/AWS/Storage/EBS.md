@@ -39,7 +39,7 @@ You can use a provisioned IOPS io1 volume that could be accessed by Nitro system
 4. launch an EC2 instance
 
 ### EBS - Encrypted Root Volume
-You can enable [Encryption](Cyber%20Security/Encryption.md) on the root volume
+You can enable [Encryption](Cyber%20Security/Cryptography/Encryption.md) on the root volume
 ![Pasted image 20220723224133](Attachments/Pasted%20image%2020220723224133.png)
 
 ### EBS Operations Summary

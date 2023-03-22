@@ -77,10 +77,10 @@ while using [Security Groups](Cloud%20Computing/AWS/Networking/Security%20Groups
 ![](Attachments/Pasted%20image%2020230305235141.png)
 
 ## SSL/TLS Termination
-The [Encryption](Cyber%20Security/Encryption.md) terminates at ALB at default but we can include certificate within the end instance so that the encryption is maintained throughout, even within the VPC.
+The [Encryption](Cyber%20Security/Cryptography/Encryption.md) terminates at ALB at default but we can include certificate within the end instance so that the encryption is maintained throughout, even within the VPC.
 ![](Attachments/Pasted%20image%2020230305235606.png)
 
-In case of NLB the [Encryption](Cyber%20Security/Encryption.md) is not broken and there will be a single encripted connection till the EC2 instances. 
+In case of NLB the [Encryption](Cyber%20Security/Cryptography/Encryption.md) is not broken and there will be a single encripted connection till the EC2 instances. 
 
 We can also use different Certificate to create different Encryption paths till the Instance through the NLB as we had done in the ALB.
 ![](Attachments/Pasted%20image%2020230305235757.png)

@@ -23,7 +23,7 @@ AWS offers many different tools and solutions for enterprises and software devel
 
 ## Services
 
-![AWS service and resources](Attachments/AWS%20service%20and%20resources.png)
+![AWS service and resources|650](Attachments/AWS%20service%20and%20resources.png)
 
 
 ### Free Services:
