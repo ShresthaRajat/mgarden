@@ -1,13 +1,13 @@
 # AWS Storage Gateway
 #aws #cloud #networking #storage 
 
-AWS Storage Gateway is a set of hybrid cloud storage services provided in [[AWS]] that provide on-premises access to virtually unlimited cloud storage.
+AWS Storage Gateway is a set of hybrid cloud storage services provided in [AWS](Cloud%20Computing/AWS/AWS.md) that provide on-premises access to virtually unlimited cloud storage.
 ![](Attachments/Pasted%20image%2020230309015050.png)
 
 ## File Gateway
-• File gateway provides a virtual on-premises fileserver
+• File gateway provides a virtual on-premises file-server
 • Store and retrieve files as objects in Amazon [S3](Cloud%20Computing/AWS/Storage/S3.md)
-• Use with on-premises applications, and [EC2](Cloud%20Computing/AWS/Compute/EC2.md)-based applications that need file storage in S3 for objectbased workloads
+• Use with on-premises applications, and [EC2](Cloud%20Computing/AWS/Compute/EC2.md)-based applications that need file storage in S3 for object-based workloads
 • File gateway offers SMB or  [NFS](Networking/NAS.md#NFS)-based access to data in Amazon S3 with local caching
 ![](Attachments/Pasted%20image%2020230309015037.png)
 

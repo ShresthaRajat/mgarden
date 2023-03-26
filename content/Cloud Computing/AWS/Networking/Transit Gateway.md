@@ -1,7 +1,7 @@
 # Transit Gateway
 #aws #cloud #networking #vpc 
 
-Simply like a powerful virtual [[Router]] like service by [[AWS]].
+Simply like a powerful virtual [Router](Router) like service by [AWS](Cloud%20Computing/AWS/AWS.md).
 AWS Transit Gateway connects your [VPC](Cloud%20Computing/AWS/Networking/VPC.md) and on-premises networks through a central hub. This connection simplifies your network and puts an end to complex peering relationships. Transit Gateway acts as a highly scalable cloud router—each new connection is made only once.
 
 

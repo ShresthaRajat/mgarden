@@ -1,7 +1,7 @@
 # Migration & Transfer
 #aws #cloud #cloud-migration 
 
-Migrating to [[AWS]] could be done with seven common migration strategies (7 Rs) for moving applications to the AWS Cloud. These strategies are refactor, replatform, repurchase, rehost, relocate, retain, and retire. For more information, see the [7 Rs](https://docs.aws.amazon.com/prescriptive-guidance/latest/migration-retiring-applications/apg-gloss.html#gloss-mig-7rs-terms) in the glossary.
+Migrating to [AWS](Cloud%20Computing/AWS/AWS.md) could be done with seven common migration strategies (7 Rs) for moving applications to the AWS Cloud. These strategies are refactor, replatform, repurchase, rehost, relocate, retain, and retire. For more information, see the [7 Rs](https://docs.aws.amazon.com/prescriptive-guidance/latest/migration-retiring-applications/apg-gloss.html#gloss-mig-7rs-terms) in the glossary.
 
 ![](Attachments/Pasted%20image%2020230304231648.png)
 1. Refactor

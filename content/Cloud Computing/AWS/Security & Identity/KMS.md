@@ -27,7 +27,7 @@ They were previously known as Customer Master Keys (CMKs) and are the primary re
 - When using XKS, key never leaves HSM
 -
 **Custom Key Store**
-- Can create KMS keys in AWS [[CloudHSM]] custom key store
+- Can create KMS keys in AWS [CloudHSM](Cloud%20Computing/AWS/Security%20&%20Identity/CloudHSM.md) custom key store
 - All keys are generated and stored in [CloudHSM](CloudHSM) self managed cluster
  - Not available for Asymmetric keys
  - Cryptoigraphic operations are done on AWS [CloudHSM](Cloud%20Computing/AWS/Security%20&%20Identity/CloudHSM.md) cluster that you own

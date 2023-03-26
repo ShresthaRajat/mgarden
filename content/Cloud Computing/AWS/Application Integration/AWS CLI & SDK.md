@@ -1,7 +1,7 @@
 # AWS CLI
 #aws #cli
 
-A [CLI](CLI) tool by [AWS](Cloud%20Computing/AWS/AWS.md) to controll aws resources via command line. It requires user credentials to perform actions to the account in which the credentials are valid and authorized to perform equivalent console based actions.
+A [CLI](CLI) tool by [AWS](Cloud%20Computing/AWS/AWS.md) to control aws resources via command line. It requires user credentials to perform actions to the account in which the credentials are valid and authorized to perform equivalent console based actions.
 
 Lets users interact with AWS form a command line.
 The CLI is installed via a Python Script.
@@ -10,7 +10,7 @@ The CLI is installed via a Python Script.
 # AWS SDK
 #aws #sdk
 
-A set of tools and libraries that you can use to create applcation sfor a specific software package
+A set of tools and libraries that you can use to create application for a specific software package
 
 The AWS SDK is a set of API libraries that let you Integrate AWS services into your applications. The SDK is available on the following languages:
 

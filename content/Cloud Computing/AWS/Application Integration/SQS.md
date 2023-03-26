@@ -2,11 +2,7 @@
 #aws #cloud #serverless #microservices  #decoupleing #queue
 
 First-ever [AWS](Cloud%20Computing/AWS/AWS.md) service that was made publicly available. (Oldest service). 
-Message Queue service enables web services applications to queue messages.
-Acts like a buffer between the components between different components.
-Can set up an Autoscaling group to SQS which is a great practice.
-Pick up messages using a “poll”.
-Mostly used for pull-based operations.
+Message Queue service enables web services applications to queue messages. Acts like a buffer between the components between different components and often used for decoupling different services. Can set up an Auto-scaling group to SQS which is a great practice. It can pick up messages using a “poll” and is mostly used for pull-based operations.
 
 
 ## Features
@@ -31,11 +27,8 @@ Mostly used for pull-based operations.
 ![](https://lh3.googleusercontent.com/kX3LN5a7jK4UmacSq5znYiNFZuQL8dXL4uz-QOqbGQ_UR_aUdyJ3WCAm3NDREirE23EQX7IrfiTQWRzDBKjCvALs7qcJpaqMdEjaOKreRbHWKxe2Q8H54O4qlwSczdLOqCMbl1eYSFWGJCEUcr_Kag)
 
 
-SQS Delay Queue postpones delivery of new messages (makes them invisible)(0s-900s). It only affects standard queues but it will affect the whole FIFO Queue. (e.g. for confirming the order in E-commerce).
 
-  
-
-Using S3 for large SQS message (256KB-2GB) (Amazon SQS Extended Client Library for Java, AWS SDK for java)
+Using [S3](Cloud%20Computing/AWS/Storage/S3.md) for large SQS message (256KB-2GB) (Amazon SQS Extended Client Library for Java, AWS SDK for java)
 
 **
 
@@ -54,25 +47,42 @@ from min of 60 seconds to max of 14 days
 
 ## Standard Queues
 ![Pasted image 20220724103848](Attachments/Pasted%20image%2020220724103848.png)
-Allows nearly-unlimited number of transactions per second
-Guarantees that a message will be delivered at least once.
-Which means more than one copy of message could be potentially delivered out of order.
-Provides best-effort ordering that helps ensure a message is generally delivered in the same order that it was sent.
-
+Allows nearly-unlimited number of transactions per second using best effort ordering which can maintain the deleviry order and this type of queue guarantees that a message will be delivered at least once. Which means more than one copy of message could be potentially delivered out of order.
 
 ## FIFO Queue
 ![Pasted image 20220724104025](Attachments/Pasted%20image%2020220724104025.png)
+Supports multiple ordered message groups within a single queue and will be limited to 300 transactions per second. If batched 10 messages per operation (max), can support upto 3000 messages. Have all of the capabilities of a standard queue and eliminates more than once processing. 
 
-supports multiple ordered message groups within a single queue
-Limited to 300 transactions per second
-Have all of the capabilities of a standard queue.
+
+## Standard vs FIFO
+![](Attachments/Pasted%20image%2020230325202511.png)
+
+
+## Dead Letter Queue
+
+To handle message failure, A DLQ will set aside the message which was not processed correctly. It can be either [Standard Queues](#Standard%20Queues) or [FIFO Queue](Cloud%20Computing/AWS/Application%20Integration/SQS.md#FIFO%20Queue) which will be specified as a DLQ to an existing SQS queue.  SQS Delay Queue postpones delivery of new messages (makes them invisible)(0s-900s). 
+
+It only affects standard queues but it will affect the whole FIFO Queue. (e.g. for confirming the order in E-commerce).
+
+![](Attachments/Pasted%20image%2020230325202924.png)
+
+
+## Delay Queue
+A message could be hidden when created in SQS for some time.
+![](Attachments/Pasted%20image%2020230325203014.png)
+
 
 ## Visibility Timeout
+
 To prevent another app from reading a message which is already being processed by another app. This help
 
 
-## polling
+## Polling
+
+Short Polling vs Long Polling
 ![Pasted image 20220724104406](Attachments/Pasted%20image%2020220724104406.png)
+
+
 
 
 

@@ -4,8 +4,8 @@
 Fully managed service by [AWS](Cloud%20Computing/AWS/AWS.md) for development of GraphQL APIs.
 - Automatically scales
 - Uses GraphQL
-- Supports LAmbda, DynamoDB and Elasticsearch
-- Serverside cacheing
+- Supports [Lambda](Cloud%20Computing/AWS/Compute/Lambda.md), [DynamoDB](Cloud%20Computing/AWS/Databases/DynamoDB.md) and [Elasticsearch](Elasticsearch)
+- Server-side caching
 - Fully managed, reduces organization overhead
 
 ![](Attachments/Pasted%20image%2020230304150851.png)

@@ -1,7 +1,7 @@
 
 #aws #cloud 
 
-[[AWS]]
+[AWS](Cloud%20Computing/AWS/AWS.md)
 
 ![](Attachments/Pasted%20image%2020230311185123.png)
 

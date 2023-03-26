@@ -1,7 +1,7 @@
 # NAT Gateway
 #aws #cloud #networking 
 
-A NAT gateway is [AWS](Cloud%20Computing/AWS/AWS.md) managed service which will utilize Network Address Translation (NAT) service. You can use a NAT gateway so that instances in a private subnet can connect to services outside your VPC but external services cannot initiate a connection with those instances.
+A NAT gateway is [AWS](Cloud%20Computing/AWS/AWS.md) managed service which will utilize Network Address Translation (NAT) service. You can use a NAT gateway so that instances in a private subnet can connect to services outside your [VPC](Cloud%20Computing/AWS/Networking/VPC.md) but external services cannot initiate a connection with those instances.
 
 ![](Attachments/Pasted%20image%2020230305183330.png)
 

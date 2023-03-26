@@ -1,7 +1,7 @@
 # Application Discovery Service
 #aws #cloud #cloud-migration 
 
-This is a service from [[AWS]] which helps you plan application migration projects. It automatically identifies servers, virtual machines (VMs), and network dependencies in your on-premises data centers.
+This is a service from [AWS](Cloud%20Computing/AWS/AWS.md) which helps you plan application migration projects. It automatically identifies servers, virtual machines (VMs), and network dependencies in your on-premises data centers.
 
 
 Agent-less discovery (OVA file) could be generated from a server using VMware solution. 

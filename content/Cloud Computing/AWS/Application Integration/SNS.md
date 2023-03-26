@@ -19,4 +19,3 @@ A topic is able to deliver to multiple protocols at once eg. email, text message
 ## SNS-Subscriptions
 A subscription can only subscribe to one protocol and one topic.
 
-![Pasted image 20220724124451](Attachments/Pasted%20image%2020220724124451.png)

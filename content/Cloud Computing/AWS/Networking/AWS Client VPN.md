@@ -1,7 +1,7 @@
 # AWS Client VPN
 #aws #cloud #networking #vpn
 
-AWS Client VPN is a fully-managed remote access [[VPN]] solution provided by [AWS](Cloud%20Computing/AWS/AWS.md) to be used by your remote workforce to securely access resources within both AWS and your on-premises network. Fully elastic, it automatically scales up, or down, based on demand.
+AWS Client VPN is a fully-managed remote access [VPN](VPN) solution provided by [AWS](Cloud%20Computing/AWS/AWS.md) to be used by your remote workforce to securely access resources within both AWS and your on-premises network. Fully elastic, it automatically scales up, or down, based on demand.
 
 - Managed OpenVPN Service
 - Secure Clent to site connections using TLS

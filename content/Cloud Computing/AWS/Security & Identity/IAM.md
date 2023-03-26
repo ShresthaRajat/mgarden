@@ -6,18 +6,23 @@ Identity based management solution by [AWS](Cloud%20Computing/AWS/AWS.md)
 IAM allows management of access of users and resources
 
 
-**IAM Users** - End users who access AWS resources via the console or the API
+## **Users** 
+- End users who access AWS resources via the console or the API
 
-**IAM Groups** - Group of users with shared permission levels which will be common for all of the users.
+## Groups 
+- Group of users with shared permission levels which will be common for all of the users.
 
-**IAM Roles** - Associate permissions to a Role and then assign this to an **IAM Users** or **IAM Groups**.
+## **Roles**  
 
-**IAM Policies** - JSON documents granting permissions for a specific user, group, or role to access the services. Policies are attached to **IAM Identities**.
+Associate permissions to a Role and then assign this to an [**Users**](Cloud%20Computing/AWS/Security%20&%20Identity/IAM.md#**Users**)or **[Groups](#Groups)**.
+
+**IAM Policies** - 
 
 ![Pasted image 20220715093815](Attachments/Pasted%20image%2020220715093815.png)
 
 
 ## IAM Policies
+JSON documents granting permissions for a specific user, group, or role to access the services. Policies are attached to **IAM Identities**.
 ![Pasted image 20220715094058](Attachments/Pasted%20image%2020220715094058.png)
 
 ## Managed vs Customer vs Inline policies
@@ -25,7 +30,7 @@ IAM allows management of access of users and resources
 ### Managed Policies 
 default policies defined and given by AWS which is designed to support common use cases.
 these cannot be edited.
-THese are indicated by an orange box.
+These are indicated by an orange box.
 
 ### Customer Managed Policies
 Custom policies created by users which is editable.

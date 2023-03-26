@@ -1,8 +1,7 @@
 # Database Migration Service (DMS)
 #aws #cloud #cloud-migration  #databases 
 
-AWS DMS is a database migration solution by [[AWS]] to migrate onprem to cloud or even from any cloud database to another type of database server hosted on cloud.
-
+AWS DMS is a database migration solution by [AWS](Cloud%20Computing/AWS/AWS.md) to migrate onprem to cloud or even from any cloud database to another type of database server hosted on cloud. It is popularly used to migrate to [DynamoDB](Cloud%20Computing/AWS/Databases/DynamoDB.md) or [RDS](Cloud%20Computing/AWS/Databases/RDS.md)
 With DMS you can migrate from:
 **Cloud to Cloud** – EC2 to RDS, RDS to RDS, RDS to Aurora
 **On-Premises to Cloud** - from a local MySQL to RDS, etc

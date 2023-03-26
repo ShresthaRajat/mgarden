@@ -1,9 +1,16 @@
 # Aurora
 #aws #cloud #rdbms #serverless #sql
 
-Fully managed Postgres or MySQL database by [AWS](Cloud%20Computing/AWS/AWS.md).
+Fully managed Postgres or MySQL database by [AWS](Cloud%20Computing/AWS/AWS.md). Combines the speed and availability of high end database with the simplicity and cost-effectiveness of opensource databases
 
-Combines the speed and availability of high end database with the simplicity and cost-effectiveness of opensource databases
+- High performance and scalability
+- Aurora Replicas
+- MySQL Read Replicas
+- Global Database
+- Multi-Master
+- Serverless
+
+![](Attachments/Pasted%20image%2020230322223630.png)
 
 ## Aurora Scaling
 Starts with 10GG of Storage, and scale in 10GB increments upto 64TB
@@ -21,10 +28,36 @@ so 6 copies are created. (2 copies in each availability zones)
 
 
 ## Aurora-Fault Tolerance and Durability
-Aurora Backup and Failover are handelled automatically
+Aurora Backup and Fail-over are handled automatically
 Snapshots of Data can be shared with other AWS accounts
 
-Storage is self-healing, in that data blocks and disks are continiously scanned for errors and repaired automatically.
+Storage is self-healing, in that data blocks and disks are continuously scanned for errors and repaired automatically.
+
+![](Attachments/Pasted%20image%2020230322224026.png)
+
+### Aurora Cross region Replica
+![](Attachments/Pasted%20image%2020230322224412.png)
+
+
+### Aurora Global Database
+![](Attachments/Pasted%20image%2020230322224455.png)
+
+
+### Aurora Multi-Master
+![](Attachments/Pasted%20image%2020230322224650.png)
+
+
+### Aurora Serverless
+Aurora Serverless is a good alternative to a traditional on demand database servers and could be used to:
+
+• Infrequently used applications
+• New applications
+• Variable workloads
+• Unpredictable workloads
+• Development and test databases
+• Multi-tenant applications
+![](Attachments/Pasted%20image%2020230322224715.png)
+
 
 ## Aurora-Replicas
 

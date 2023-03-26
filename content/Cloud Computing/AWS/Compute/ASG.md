@@ -3,7 +3,7 @@
 
 A service from [AWS](Cloud%20Computing/AWS/AWS.md) to spin up [EC2](Cloud%20Computing/AWS/Compute/EC2.md) instances as well as remove them automatically according to the situation. 
 
-For example the asg can be hooked up to an cloudwatch alarm when the ec2 instance status check fails. Then cloudwatch then notifies the autoscaling group which spins up a new instance.
+For example the [ASG](Cloud%20Computing/AWS/Compute/ASG.md) can be hooked up to an [Cloudwatch-Alarms](Cloud%20Computing/AWS/Monitoring/CloudWatch.md#Cloudwatch-Alarms) when the [EC2](Cloud%20Computing/AWS/Compute/EC2.md) instance status check fails. Then [CloudWatch](Cloud%20Computing/AWS/Monitoring/CloudWatch.md) then notifies the [ASG](Cloud%20Computing/AWS/Compute/ASG.md) which spins up a new instance.
 
 ![](Attachments/Pasted%20image%2020230305211052.png)
 

@@ -1,7 +1,7 @@
 # Application Mirror image (AMI)
 #aws #cloud #compute #packer 
 
-[AWS](Cloud%20Computing/AWS/AWS.md) Provides a tool to recreate [EC2](Cloud%20Computing/AWS/Compute/EC2.md) instances and install dependencies, applications, software and security updates, and configure customizations quickly. 
+[AWS](Cloud%20Computing/AWS/AWS.md) Provides a tool to recreate [EC2](Cloud%20Computing/AWS/Compute/EC2.md) instances and install dependencies, applications, software and security updates, and configure customization quickly. 
 
 We can use [Packer](DevOps/IAC/Packer/Packer.md) to create AMIs as well.
 

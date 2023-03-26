@@ -1,7 +1,7 @@
 # IPv6
 #aws #cloud #networking 
 
-[AWS](Cloud%20Computing/AWS/AWS.md) also supports IPv6 in the VPC which required IPv6 CIDR block along with the IPv4 CIDR block.  
+[AWS](Cloud%20Computing/AWS/AWS.md) also supports IPv6 in the [VPC](Cloud%20Computing/AWS/Networking/VPC.md) which required IPv6 CIDR block along with the IPv4 CIDR block.  
 
 They also need an route table entry with the IPv6 address.
 
