@@ -1,6 +1,6 @@
 ---
-title: M Garden.
-enableToc: true
+title: Shrestharajat.com
+enableToc: false
 ---
 
 Welcome to my second brain where I store my journal and notes on the topics that I am currently exploring. 
@@ -15,7 +15,7 @@ Some of my reccomendations are:
 7. [IaC](DevOps/IAC/IaC.md)
 8. [Kubernetes](Microservice%20Architecture/Kubernetes/Kubernetes.md)
 
-Or you can just explore the graph!
+Or you can just explore the graph below!
 
 > [!info]
 > This site contains some works from other authors! 
