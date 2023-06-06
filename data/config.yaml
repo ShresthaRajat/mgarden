@@ -64,11 +64,14 @@ description:
 
 # title of the home page (also for SEO)
 page_title:
-  "M Garden"
-  # links to show in the footer
+  "Shrestha Rajat"
+
+# links to show in the footer
 links:
   - link_name: Linkedin
     link: https://linkedin.com/in/shrestharajat
   - link_name: GitHub
     link: https://github.com/shrestharajat
+  - link_name: Credly
+    link: https://credly.com/users/shrestharajat
 
