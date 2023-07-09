@@ -1,5 +1,10 @@
 ---
 tags: [cloud, aws, storage]
+title: Elastic Block Storage (EBS)
+aliases: [Elastic Block Storage (EBS)]
+linter-yaml-title-alias: Elastic Block Storage (EBS)
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # Elastic Block Storage (EBS)
 #cloud #aws #storage

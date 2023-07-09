@@ -1,5 +1,8 @@
 ---
 tags: [git, source-control, version-control]
+title: Git
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 # Git
 #git #source-control #version-control

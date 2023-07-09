@@ -1,5 +1,10 @@
 ---
 tags: [Azure, AKS, Kubernetes]
+title: AKS Automatic Deployments setup
+aliases: [AKS Automatic Deployments setup]
+linter-yaml-title-alias: AKS Automatic Deployments setup
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 # AKS Automatic Deployments setup
 #Azure #AKS #Kubernetes 

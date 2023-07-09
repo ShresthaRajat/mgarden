@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, Active-Directory]
+title: AWS Workspace
+aliases: [AWS Workspace]
+linter-yaml-title-alias: AWS Workspace
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # AWS Workspace
 #aws #cloud #Active-Directory 

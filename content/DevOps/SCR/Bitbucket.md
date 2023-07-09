@@ -1,5 +1,10 @@
 ---
 tags: [source-code-repo, repo, git]
+title: BitBucket
+aliases: [BitBucket]
+linter-yaml-title-alias: BitBucket
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 # BitBucket
 #source-code-repo #repo #git

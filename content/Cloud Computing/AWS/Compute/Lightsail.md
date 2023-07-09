@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, compute]
+title: AWS Lightsail
+aliases: [AWS Lightsail]
+linter-yaml-title-alias: AWS Lightsail
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # AWS Lightsail
 #aws #cloud #compute 

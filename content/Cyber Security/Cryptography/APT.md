@@ -1,5 +1,10 @@
 ---
 tags: [cyber-security, security]
+title: Advanced Presist Threat (APT)
+aliases: [Advanced Presist Threat (APT)]
+linter-yaml-title-alias: Advanced Presist Threat (APT)
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 # Advanced Presist Threat (APT)
 #cyber-security #security 

@@ -1,5 +1,8 @@
 ---
 tags: [Azure, cloud, Kubernetes, microservices, managed-kubernetes-cluster]
+title: AKS
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 # AKS
 #Azure #cloud #Kubernetes #microservices #managed-kubernetes-cluster

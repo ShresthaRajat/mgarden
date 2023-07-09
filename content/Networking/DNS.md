@@ -1,5 +1,10 @@
 ---
 tags: [networking]
+title: Domain Name Server (DNS)
+aliases: [Domain Name Server (DNS)]
+linter-yaml-title-alias: Domain Name Server (DNS)
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 # Domain Name Server (DNS)
 #networking 

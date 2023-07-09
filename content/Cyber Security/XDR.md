@@ -1,5 +1,10 @@
 ---
 tags: [cyber-security, security]
+title: Extended Detection and Response (XDR)
+aliases: [Extended Detection and Response (XDR)]
+linter-yaml-title-alias: Extended Detection and Response (XDR)
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 # Extended Detection and Response (XDR)
 #cyber-security #security 

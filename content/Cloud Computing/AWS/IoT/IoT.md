@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, iot]
+title: The Internet of Things (IoT)
+aliases: [The Internet of Things (IoT)]
+linter-yaml-title-alias: The Internet of Things (IoT)
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # The Internet of Things (IoT)
 #aws #cloud #iot

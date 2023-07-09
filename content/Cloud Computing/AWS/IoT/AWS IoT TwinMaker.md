@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, iot]
+title: "AWS IoT TwinMaker "
+aliases: ["AWS IoT TwinMaker "]
+linter-yaml-title-alias: "AWS IoT TwinMaker "
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # AWS IoT TwinMaker 
 #aws #cloud #iot

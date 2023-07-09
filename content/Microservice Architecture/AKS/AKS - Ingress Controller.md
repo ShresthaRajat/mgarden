@@ -1,5 +1,8 @@
 ---
 tags: [Azure, Kubernetes, AKS, Nginx]
+title: AKS - Ingress Controller
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 ￼ ￼ # Ingress controller in AKS
 #Azure #Kubernetes #AKS #Nginx

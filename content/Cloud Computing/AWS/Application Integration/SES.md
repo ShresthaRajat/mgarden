@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud]
+title: Amazon Simple Email Service (SES)
+aliases: [Amazon Simple Email Service (SES)]
+linter-yaml-title-alias: Amazon Simple Email Service (SES)
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # Amazon Simple Email Service (SES)
 #aws #cloud 

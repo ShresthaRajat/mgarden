@@ -1,5 +1,8 @@
 ---
 tags: [cloud-security, cyber-security]
+title: Active Directory
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 # Active Directory
 #cloud-security #cyber-security 

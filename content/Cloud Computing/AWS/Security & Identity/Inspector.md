@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, security, cloud-security]
+title: Amazon Inspector
+aliases: [Amazon Inspector]
+linter-yaml-title-alias: Amazon Inspector
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # Amazon Inspector
 #aws #cloud #security #cloud-security 

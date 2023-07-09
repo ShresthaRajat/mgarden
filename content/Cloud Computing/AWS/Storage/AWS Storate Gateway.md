@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, networking, storage]
+title: AWS Storage Gateway
+aliases: [AWS Storage Gateway]
+linter-yaml-title-alias: AWS Storage Gateway
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # AWS Storage Gateway
 #aws #cloud #networking #storage 

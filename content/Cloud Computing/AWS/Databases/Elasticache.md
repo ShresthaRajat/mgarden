@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, databases]
+title: Amazon Elasticache
+aliases: [Amazon Elasticache]
+linter-yaml-title-alias: Amazon Elasticache
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # Amazon Elasticache
 #aws #cloud #databases 

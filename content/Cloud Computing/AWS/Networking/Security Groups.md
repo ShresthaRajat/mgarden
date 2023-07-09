@@ -1,5 +1,8 @@
 ---
 tags: [aws, cloud, networking]
+title: Security Groups
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # Security Groups
 #aws #cloud #networking 

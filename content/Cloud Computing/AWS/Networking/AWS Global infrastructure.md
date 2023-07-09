@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, networking]
+title: AWS Global Infrastructure
+aliases: [AWS Global Infrastructure]
+linter-yaml-title-alias: AWS Global Infrastructure
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # AWS Global Infrastructure
 #aws #cloud #networking 

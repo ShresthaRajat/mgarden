@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud]
+title: AWS Well-Architected Tool
+aliases: [AWS Well-Architected Tool]
+linter-yaml-title-alias: AWS Well-Architected Tool
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # AWS Well-Architected Tool
 #aws #cloud 

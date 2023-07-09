@@ -1,5 +1,10 @@
 ---
 tags: [cyber-security, cloud-security]
+title: Zero Trust Policy
+aliases: [Zero Trust Policy]
+linter-yaml-title-alias: Zero Trust Policy
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 # Zero Trust Policy
 #cyber-security #cloud-security 

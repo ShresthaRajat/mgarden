@@ -1,5 +1,10 @@
 ---
 tags: [Azure, cloud, compute]
+title: VM (Virtual Macines)
+aliases: [VM (Virtual Macines)]
+linter-yaml-title-alias: VM (Virtual Macines)
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # VM (Virtual Macines)
 #Azure #cloud #compute 

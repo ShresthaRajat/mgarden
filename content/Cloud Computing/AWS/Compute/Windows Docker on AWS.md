@@ -1,5 +1,10 @@
 ---
 tags: [docker, windows, aws]
+title: Windows Container Docker on AWS
+aliases: [Windows Container Docker on AWS]
+linter-yaml-title-alias: Windows Container Docker on AWS
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # Windows Container Docker on AWS
 #docker #windows #aws 

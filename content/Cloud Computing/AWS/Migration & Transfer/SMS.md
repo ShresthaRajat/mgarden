@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, cloud-migration]
+title: AWS Server Migration Service (SMS)
+aliases: [AWS Server Migration Service (SMS)]
+linter-yaml-title-alias: AWS Server Migration Service (SMS)
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # AWS Server Migration Service (SMS)
 #aws #cloud #cloud-migration 

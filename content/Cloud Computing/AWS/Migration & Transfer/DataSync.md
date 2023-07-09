@@ -1,5 +1,10 @@
 ---
 tags: [cloud, aws, cloud-migration]
+title: AWS DataSync
+aliases: [AWS DataSync]
+linter-yaml-title-alias: AWS DataSync
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # AWS DataSync
 #cloud #aws #cloud-migration 

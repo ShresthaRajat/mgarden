@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, networking]
+title: AWS Global Accelerator (GA)
+aliases: [AWS Global Accelerator (GA)]
+linter-yaml-title-alias: AWS Global Accelerator (GA)
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # AWS Global Accelerator (GA)
 #aws #cloud #networking 

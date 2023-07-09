@@ -1,5 +1,10 @@
 ---
 tags: [CICD]
+title: Github - Actions
+aliases: [Github - Actions]
+linter-yaml-title-alias: Github - Actions
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 # Github - Actions
 #CICD 

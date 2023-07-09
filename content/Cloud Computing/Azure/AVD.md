@@ -1,5 +1,10 @@
 ---
 tags: [cloud, Azure, virtual-machines, compute]
+title: Azure Virtual Desktop (AVD)
+aliases: [Azure Virtual Desktop (AVD)]
+linter-yaml-title-alias: Azure Virtual Desktop (AVD)
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # Azure Virtual Desktop (AVD)
 #cloud #Azure #virtual-machines #compute 

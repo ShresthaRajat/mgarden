@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, Active-Directory, Microsoft]
+title: AWS Managed Microsoft AD
+aliases: [AWS Managed Microsoft AD]
+linter-yaml-title-alias: AWS Managed Microsoft AD
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # AWS Managed Microsoft AD
 #aws #cloud #Active-Directory #Microsoft 

@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, databases, nosql]
+title: Amazon Keyspaces (for Apache Cassandra)
+aliases: [Amazon Keyspaces (for Apache Cassandra)]
+linter-yaml-title-alias: Amazon Keyspaces (for Apache Cassandra)
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # Amazon Keyspaces (for Apache Cassandra)
 #aws #cloud #databases  #nosql 

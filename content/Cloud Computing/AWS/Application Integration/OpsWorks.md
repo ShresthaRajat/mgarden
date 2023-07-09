@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud]
+title: AWS OpsWorks
+aliases: [AWS OpsWorks]
+linter-yaml-title-alias: AWS OpsWorks
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # AWS OpsWorks
 #aws #cloud 

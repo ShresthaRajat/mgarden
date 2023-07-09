@@ -1,5 +1,10 @@
 ---
 tags: [networking]
+title: OSI (Open System Interconnection)
+aliases: [OSI (Open System Interconnection)]
+linter-yaml-title-alias: OSI (Open System Interconnection)
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 # OSI (Open System Interconnection)
 #networking 

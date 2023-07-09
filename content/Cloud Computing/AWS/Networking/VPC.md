@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, vpc, networking]
+title: VPC (Virtual Private Cloud)
+aliases: [VPC (Virtual Private Cloud)]
+linter-yaml-title-alias: VPC (Virtual Private Cloud)
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # VPC (Virtual Private Cloud)
 #aws #cloud #vpc #networking

@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, monitoring]
+title: AWS X-Ray
+aliases: [AWS X-Ray]
+linter-yaml-title-alias: AWS X-Ray
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # AWS X-Ray
 #aws #cloud #monitoring 

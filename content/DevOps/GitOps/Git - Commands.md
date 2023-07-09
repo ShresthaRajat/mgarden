@@ -1,5 +1,10 @@
 ---
 tags: [git, source-control]
+title: Git Commands
+aliases: [Git Commands]
+linter-yaml-title-alias: Git Commands
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 # Git Commands
 #git #source-control 

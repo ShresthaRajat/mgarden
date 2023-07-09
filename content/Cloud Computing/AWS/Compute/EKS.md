@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, Kubernetes, managed-kubernetes-cluster]
+title: EKS (Elastic Kubernetes Service)
+aliases: [EKS (Elastic Kubernetes Service)]
+linter-yaml-title-alias: EKS (Elastic Kubernetes Service)
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # EKS (Elastic Kubernetes Service)
 #aws #cloud #Kubernetes #managed-kubernetes-cluster 

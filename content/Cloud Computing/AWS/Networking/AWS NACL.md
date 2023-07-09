@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, networking]
+title: Network ACL (NACL)
+aliases: [Network ACL (NACL)]
+linter-yaml-title-alias: Network ACL (NACL)
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # Network ACL (NACL)
 #aws #cloud #networking 

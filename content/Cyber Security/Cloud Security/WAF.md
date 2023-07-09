@@ -1,5 +1,10 @@
 ---
 tags: [cyber-security, cloud, waf, firewall]
+title: WAF (Web Application Firewall)
+aliases: [WAF (Web Application Firewall)]
+linter-yaml-title-alias: WAF (Web Application Firewall)
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 # WAF (Web Application Firewall)
 #cyber-security #cloud #waf #firewall 

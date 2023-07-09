@@ -1,5 +1,10 @@
 ---
 tags: [cloud, security, cyber-security]
+title: Secure Multi-tier Architecture
+aliases: [Secure Multi-tier Architecture]
+linter-yaml-title-alias: Secure Multi-tier Architecture
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 # Secure Multi-tier Architecture
 #cloud #security #cyber-security 

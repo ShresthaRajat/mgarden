@@ -1,5 +1,10 @@
 ---
 tags: [containers, docker, images]
+title: Docker images
+aliases: [Docker images]
+linter-yaml-title-alias: Docker images
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 # Docker images
 #containers #docker #images

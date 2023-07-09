@@ -1,5 +1,10 @@
 ---
 tags: [aws, cli, sdk]
+title: AWS CLI
+aliases: [AWS CLI]
+linter-yaml-title-alias: AWS CLI
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # AWS CLI
 #aws #cli

@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, monitoring]
+title: Amazon Managed Service for Prometheus
+aliases: [Amazon Managed Service for Prometheus]
+linter-yaml-title-alias: Amazon Managed Service for Prometheus
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # Amazon Managed Service for Prometheus
 #aws #cloud #monitoring 

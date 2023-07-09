@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, organization]
+title: Control Tower
+aliases: [Control Tower]
+linter-yaml-title-alias: Control Tower
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # Control Tower
 #aws #cloud #organization 

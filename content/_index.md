@@ -1,6 +1,8 @@
 ---
-title: Shrestharajat.com
+title: _index
 enableToc: false
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:39 am
 ---
 
 Welcome to my second brain where I store my journal and notes on the topics that I am currently exploring. 

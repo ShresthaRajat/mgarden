@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, security]
+title: AWS Audit Manager
+aliases: [AWS Audit Manager]
+linter-yaml-title-alias: AWS Audit Manager
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # AWS Audit Manager
 #aws #cloud #security 

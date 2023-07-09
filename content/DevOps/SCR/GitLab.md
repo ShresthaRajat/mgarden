@@ -1,5 +1,8 @@
 ---
 tags: [git, CICD, source-code-repo, repo]
+title: GitLab
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 # GitLab
 #git #CICD #source-code-repo #repo 

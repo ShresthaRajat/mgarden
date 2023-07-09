@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, monitoring]
+title: Amazon Managed Grafana
+aliases: [Amazon Managed Grafana]
+linter-yaml-title-alias: Amazon Managed Grafana
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # Amazon Managed Grafana
 #aws #cloud #monitoring 

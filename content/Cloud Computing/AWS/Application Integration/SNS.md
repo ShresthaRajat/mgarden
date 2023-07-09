@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, notification]
+title: AWS SNS
+aliases: [AWS SNS]
+linter-yaml-title-alias: AWS SNS
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # AWS SNS
 #aws #cloud #notification

@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, serverless]
+title: AWS Serverless Application Model (SAM)
+aliases: [AWS Serverless Application Model (SAM)]
+linter-yaml-title-alias: AWS Serverless Application Model (SAM)
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # AWS Serverless Application Model (SAM)
 #aws #cloud #serverless 

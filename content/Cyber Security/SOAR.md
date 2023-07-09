@@ -1,5 +1,10 @@
 ---
 tags: [cyber-security, security]
+title: Security Orchestration Automated Response
+aliases: [Security Orchestration Automated Response]
+linter-yaml-title-alias: Security Orchestration Automated Response
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 # Security Orchestration Automated Response
 #cyber-security #security 

@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, security]
+title: Amazon Cognito
+aliases: [Amazon Cognito]
+linter-yaml-title-alias: Amazon Cognito
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # Amazon Cognito
 #aws #cloud #security 

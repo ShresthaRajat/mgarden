@@ -1,5 +1,10 @@
 ---
 tags: [terraform, IaC]
+title: Organizaing Terragrunt
+aliases: [Organizaing Terragrunt]
+linter-yaml-title-alias: Organizaing Terragrunt
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 # Organizaing Terragrunt
 #terraform #IaC 

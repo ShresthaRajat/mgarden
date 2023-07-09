@@ -1,5 +1,10 @@
 ---
 tags: [docker, containers]
+title: Docker compose
+aliases: [Docker compose]
+linter-yaml-title-alias: Docker compose
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 # Docker compose
 #docker #containers 

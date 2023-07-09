@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud]
+title: AWS Systems Manager (SSM)
+aliases: [AWS Systems Manager (SSM)]
+linter-yaml-title-alias: AWS Systems Manager (SSM)
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # AWS Systems Manager (SSM)
 #aws #cloud 

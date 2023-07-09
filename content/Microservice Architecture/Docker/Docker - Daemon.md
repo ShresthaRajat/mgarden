@@ -1,5 +1,10 @@
 ---
 tags: [dockercybersec]
+title: Docker Daemon
+aliases: [Docker Daemon]
+linter-yaml-title-alias: Docker Daemon
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 # Docker Daemon
 #dockercybersec

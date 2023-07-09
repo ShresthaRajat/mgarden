@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, compute, packer]
+title: Application Mirror image (AMI)
+aliases: [Application Mirror image (AMI)]
+linter-yaml-title-alias: Application Mirror image (AMI)
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # Application Mirror image (AMI)
 #aws #cloud #compute #packer 

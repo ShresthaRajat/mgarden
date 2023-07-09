@@ -1,5 +1,10 @@
 ---
 tags: [cloud, aws, hasicorp, IaC, terraform, windows]
+title: "Packer: Creating a base windows server in AWS"
+aliases: ["Packer: Creating a base windows server in AWS"]
+linter-yaml-title-alias: "Packer: Creating a base windows server in AWS"
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 # Packer: Creating a base windows server in AWS
 #cloud #aws #hasicorp #IaC #terraform #windows 

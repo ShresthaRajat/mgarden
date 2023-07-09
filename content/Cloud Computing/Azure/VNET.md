@@ -1,5 +1,10 @@
 ---
 tags: [Azure, cloud]
+title: VNET (Virtual Network)
+aliases: [VNET (Virtual Network)]
+linter-yaml-title-alias: VNET (Virtual Network)
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # VNET (Virtual Network)
 #Azure #cloud

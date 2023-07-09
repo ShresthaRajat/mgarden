@@ -1,5 +1,10 @@
 ---
 tags: [cloud, Azure, databases]
+title: Azure SQL Database
+aliases: [Azure SQL Database]
+linter-yaml-title-alias: Azure SQL Database
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # Azure SQL Database
 #cloud #Azure #databases 

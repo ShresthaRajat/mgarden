@@ -1,5 +1,8 @@
 ---
 tags: [aws, cloud, application]
+title: Device Farm
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # Device Farm
 #aws #cloud #application 

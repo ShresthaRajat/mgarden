@@ -1,5 +1,10 @@
 ---
 tags: [Azure, cloud, containers, registry, container-registry, docker]
+title: Azure Container Registry (ACR)
+aliases: [Azure Container Registry (ACR)]
+linter-yaml-title-alias: Azure Container Registry (ACR)
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # Azure Container Registry (ACR)
 #Azure #cloud #containers #registry #container-registry #docker 

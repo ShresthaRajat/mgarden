@@ -1,5 +1,10 @@
 ---
 tags: [cyber-security, security]
+title: Confidentiality, Integrity, Availability (CIA)
+aliases: ["Confidentiality, Integrity, Availability (CIA)"]
+linter-yaml-title-alias: "Confidentiality, Integrity, Availability (CIA)"
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 # Confidentiality, Integrity, Availability (CIA)
 #cyber-security #security 

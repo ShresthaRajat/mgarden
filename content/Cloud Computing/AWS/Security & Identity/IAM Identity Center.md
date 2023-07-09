@@ -1,5 +1,10 @@
 ---
 tags: [cloud, aws, sso, Identity]
+title: "# IAM Identity Center"
+aliases: ["# IAM Identity Center"]
+linter-yaml-title-alias: "# IAM Identity Center"
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # # IAM Identity Center
 #cloud #aws #sso #Identity 

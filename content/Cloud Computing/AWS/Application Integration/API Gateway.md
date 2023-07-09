@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, api]
+title: Amazon API Gateway
+aliases: [Amazon API Gateway]
+linter-yaml-title-alias: Amazon API Gateway
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # Amazon API Gateway
 #aws #cloud #api

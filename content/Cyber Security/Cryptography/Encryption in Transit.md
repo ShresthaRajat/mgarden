@@ -1,5 +1,10 @@
 ---
 tags: [cyber-security, security, encryption]
+title: Encryption in transit
+aliases: [Encryption in transit]
+linter-yaml-title-alias: Encryption in transit
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 # Encryption in transit
 #cyber-security #security #encryption 

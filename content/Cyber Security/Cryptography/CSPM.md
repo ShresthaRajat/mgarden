@@ -1,5 +1,10 @@
 ---
 tags: [cyber-security, security, cloud-security]
+title: Cloud Security Posture Management (CSPM)
+aliases: [Cloud Security Posture Management (CSPM)]
+linter-yaml-title-alias: Cloud Security Posture Management (CSPM)
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 # Cloud Security Posture Management (CSPM)
 #cyber-security #security #cloud-security 

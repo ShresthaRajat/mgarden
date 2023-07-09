@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud]
+title: "AWS Personal Health Dashboard "
+aliases: ["AWS Personal Health Dashboard "]
+linter-yaml-title-alias: "AWS Personal Health Dashboard "
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # AWS Personal Health Dashboard 
 #aws #cloud 

@@ -1,5 +1,10 @@
 ---
 tags: [cloud, azure, hasicorp, IaC, terraform, windows]
+title: "Packer: Creating a generalized IIS windows server in Azure"
+aliases: ["Packer: Creating a generalized IIS windows server in Azure"]
+linter-yaml-title-alias: "Packer: Creating a generalized IIS windows server in Azure"
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 # Packer: Creating a generalized IIS windows server in Azure
 #cloud #azure #hasicorp #IaC #terraform #windows 

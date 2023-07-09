@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, networking]
+title: Direct Connect Gateway
+aliases: [Direct Connect Gateway]
+linter-yaml-title-alias: Direct Connect Gateway
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # Direct Connect Gateway
 #aws #cloud #networking 

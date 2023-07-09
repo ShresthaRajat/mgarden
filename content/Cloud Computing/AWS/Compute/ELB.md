@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, vpc, networking, loadbalancer]
+title: Elastic Load balancer (ELB)
+aliases: [Elastic Load balancer (ELB)]
+linter-yaml-title-alias: Elastic Load balancer (ELB)
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # Elastic Load balancer (ELB)
 #aws #cloud #vpc #networking #loadbalancer

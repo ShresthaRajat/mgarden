@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, networking]
+title: VPC Endpoint
+aliases: [VPC Endpoint]
+linter-yaml-title-alias: VPC Endpoint
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # VPC Endpoint
 #aws #cloud #networking 

@@ -1,5 +1,10 @@
 ---
 tags: [cyber-security, security, encryption]
+title: Certificate Authority (CA)
+aliases: [Certificate Authority (CA)]
+linter-yaml-title-alias: Certificate Authority (CA)
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 # Certificate Authority (CA)
 #cyber-security #security #encryption 

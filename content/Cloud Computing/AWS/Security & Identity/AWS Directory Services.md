@@ -1,5 +1,8 @@
 ---
 tags: [aws, cloud, Active-Directory]
+title: AWS Directory Services
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # AWS Directory Services
 #aws #cloud  #Active-Directory 

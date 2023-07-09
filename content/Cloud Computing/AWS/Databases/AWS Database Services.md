@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, databases, rdbms, nosql, graph]
+title: AWS Database Service
+aliases: [AWS Database Service]
+linter-yaml-title-alias: AWS Database Service
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # AWS Database Service
 #aws #cloud #databases  #rdbms #nosql #graph

@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud, monitoring, logs]
+title: Cloudwatch
+aliases: [Cloudwatch]
+linter-yaml-title-alias: Cloudwatch
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # Cloudwatch
 #aws #cloud  #monitoring #logs 

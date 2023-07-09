@@ -1,5 +1,8 @@
 ---
 tags: [cloud, aws, networking]
+title: AWS Site-to-Site VPN
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # AWS Site-to-Site VPN
 #cloud #aws #networking 

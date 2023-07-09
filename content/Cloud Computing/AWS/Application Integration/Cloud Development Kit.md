@@ -1,5 +1,8 @@
 ---
 tags: [aws, cloud, IaC]
+title: Cloud Development Kit
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # Cloud Development Kit
 #aws #cloud #IaC 

@@ -1,5 +1,8 @@
 ---
 tags: [aws, cloud, bigdata, data-lake]
+title: AWS Lake Formation
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # AWS Lake Formation
 #aws #cloud #bigdata #data-lake

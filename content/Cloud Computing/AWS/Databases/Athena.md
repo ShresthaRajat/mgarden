@@ -1,5 +1,10 @@
 ---
 tags: [cloud, aws, data-analytics]
+title: Amazon Athena
+aliases: [Amazon Athena]
+linter-yaml-title-alias: Amazon Athena
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # Amazon Athena
 #cloud #aws #data-analytics 

@@ -1,5 +1,10 @@
 ---
 tags: [aws, cloud]
+title: AWS Elastic Beanstalk (EB)
+aliases: [AWS Elastic Beanstalk (EB)]
+linter-yaml-title-alias: AWS Elastic Beanstalk (EB)
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # AWS Elastic Beanstalk (EB)
 #aws #cloud 

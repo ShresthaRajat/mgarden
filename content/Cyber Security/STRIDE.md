@@ -1,5 +1,10 @@
 ---
 tags: [cyber-security, security]
+title: STRIDE Methodology
+aliases: [STRIDE Methodology]
+linter-yaml-title-alias: STRIDE Methodology
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:42 am
 ---
 # STRIDE Methodology
 #cyber-security #security 

@@ -1,5 +1,10 @@
 ---
 tags: [azure, cloud, compute]
+title: Azure App Service
+aliases: [Azure App Service]
+linter-yaml-title-alias: Azure App Service
+date created: Monday, July 10th 2023, 12:40:08 am
+date modified: Monday, July 10th 2023, 12:40:43 am
 ---
 # Azure App Service
 #azure #cloud #compute 
