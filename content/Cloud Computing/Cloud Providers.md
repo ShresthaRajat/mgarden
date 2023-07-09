@@ -1,3 +1,6 @@
+---
+tags: [cloud, servers, vendors]
+---
 # Cloud Providers
 #cloud #servers #vendors
 

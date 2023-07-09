@@ -1,3 +1,6 @@
+---
+tags: [networking, storage, nfs]
+---
 ## Network Attached Storage (NAS)
 
 #networking #storage #nfs  

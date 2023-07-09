@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, ai, ml]
+---
 # Amazon SageMaker
 #aws #cloud #ai #ml
 

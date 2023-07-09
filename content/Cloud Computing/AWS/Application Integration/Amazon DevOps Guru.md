@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, CICD]
+---
 # Amazon DevOps Guru
 #aws #cloud #CICD 
 

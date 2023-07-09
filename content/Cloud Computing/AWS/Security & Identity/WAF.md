@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud]
+---
 # WAF
 
 #aws #cloud 

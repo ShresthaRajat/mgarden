@@ -1,3 +1,6 @@
+---
+tags: [Azure, Kubernetes, AKS, Nginx]
+---
 ￼ ￼ # Ingress controller in AKS
 #Azure #Kubernetes #AKS #Nginx
 

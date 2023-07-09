@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, containers]
+---
 # ECS (Elastic Container Service)
 #aws #cloud #containers 
 

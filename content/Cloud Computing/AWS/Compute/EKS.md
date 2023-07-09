@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, Kubernetes, managed-kubernetes-cluster]
+---
 # EKS (Elastic Kubernetes Service)
 #aws #cloud #Kubernetes #managed-kubernetes-cluster 
 

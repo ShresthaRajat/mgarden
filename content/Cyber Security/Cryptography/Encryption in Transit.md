@@ -1,7 +1,10 @@
+---
+tags: [cyber-security, security, encryption]
+---
 # Encryption in transit
 #cyber-security #security #encryption 
 
-[Encryption](Cyber%20Security/Cryptography/Encryption.md)  of data in transit is the data moving from one location to another, such as across the internet or through a private network. Secure transfer can be handled by several different layers. It could be done by encrypting the data at the application layer before sending it over a network. HTTPS is an example of encryption in transit.
+[Encryption](Cyber%20Security/Cryptography/Encryption.md)  of data in transit is the data moving from one location to another, such as across the internet or through a private network. Secure transfer can be handled by several different layers. It could be done by encrypting the data at the application layer before sending it over a network. HTTPS is an example of encryption in transit. [[TLS]] and [[SSL]] are the main protocols. While [[TLS]] is now depricated.
 
 Encrypting data in transit protects it from outside observers and provides a mechanism to transmit data while limiting the risk of exposure.
 

@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, ai, ml]
+---
 # Amazon Translate
 #aws #cloud #ai #ml 
 

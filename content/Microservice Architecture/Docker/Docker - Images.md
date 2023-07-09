@@ -1,3 +1,6 @@
+---
+tags: [containers, docker, images]
+---
 # Docker images
 #containers #docker #images
 

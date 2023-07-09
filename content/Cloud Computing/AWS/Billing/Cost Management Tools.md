@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, cost]
+---
 # Cost Management Tools
 #aws #cloud #cost
 

@@ -1,3 +1,6 @@
+---
+tags: [devops, IaC]
+---
 # Infrastructure as Code
 #devops #IaC 
 

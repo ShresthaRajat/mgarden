@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, security, rbac]
+---
 # IAM
 #aws #cloud #security #rbac
 

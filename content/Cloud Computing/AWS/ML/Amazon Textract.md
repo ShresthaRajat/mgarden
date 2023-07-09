@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, ai, ml]
+---
 # Amazon Textract
 #aws #cloud #ai #ml
 

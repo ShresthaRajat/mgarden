@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, iot]
+---
 # AWS IoT 1-Click
 #aws #cloud #iot 
 

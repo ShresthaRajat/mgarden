@@ -1,3 +1,6 @@
+---
+tags: [linix]
+---
 # ZSH
 
 #linix

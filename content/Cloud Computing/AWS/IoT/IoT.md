@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, iot]
+---
 # The Internet of Things (IoT)
 #aws #cloud #iot
 

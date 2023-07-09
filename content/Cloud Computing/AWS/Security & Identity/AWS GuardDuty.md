@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, security]
+---
 # AWS GuardDuty
 #aws #cloud #security 
 

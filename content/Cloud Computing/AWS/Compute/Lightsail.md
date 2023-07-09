@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, compute]
+---
 # AWS Lightsail
 #aws #cloud #compute 
 

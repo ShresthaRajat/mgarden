@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud]
+---
 # Kinesis vs SQS vs SNS
 #aws #cloud 
 

@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud]
+---
 # AWS Cost & Usage Report
 #aws #cloud 
 

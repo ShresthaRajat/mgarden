@@ -1,3 +1,6 @@
+---
+tags: [kubernetes, cloud-native, microservices, containers]
+---
 what does waf do# Kubernetes
 
 #kubernetes #cloud-native #microservices #containers

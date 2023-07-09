@@ -1,3 +1,6 @@
+---
+tags: [Kubernetes, containers, docker, cli]
+---
 what does waf do# Minikube
 #Kubernetes #containers #docker #cli
 

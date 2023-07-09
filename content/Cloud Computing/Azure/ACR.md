@@ -1,3 +1,6 @@
+---
+tags: [Azure, cloud, containers, registry, container-registry, docker]
+---
 # Azure Container Registry (ACR)
 #Azure #cloud #containers #registry #container-registry #docker 
 

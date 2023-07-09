@@ -1,3 +1,6 @@
+---
+tags: [packer, IaC, terraform]
+---
 # Packer
 #packer #IaC #terraform 
 

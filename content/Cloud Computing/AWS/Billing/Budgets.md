@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud]
+---
 # AWS Budgets
 #aws #cloud 
 

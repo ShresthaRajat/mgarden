@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, storage, networking]
+---
 # Storage Gateway
 #aws #cloud #storage #networking
 

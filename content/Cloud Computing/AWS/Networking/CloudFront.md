@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, edge, CDN, TODO]
+---
 # CloudFront
 #aws #cloud #edge #CDN
 

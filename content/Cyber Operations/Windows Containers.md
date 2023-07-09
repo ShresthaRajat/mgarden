@@ -1,3 +1,6 @@
+---
+tags: [windows, os, docker]
+---
 # Windows Containers
 #windows #os #docker 
 

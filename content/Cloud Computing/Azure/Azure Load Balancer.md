@@ -1,3 +1,6 @@
+---
+tags: [Azure, cloud]
+---
 # Azure Load Balancer
 #Azure #cloud 
 

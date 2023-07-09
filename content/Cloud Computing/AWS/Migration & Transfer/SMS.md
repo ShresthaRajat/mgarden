@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, cloud-migration]
+---
 # AWS Server Migration Service (SMS)
 #aws #cloud #cloud-migration 
 

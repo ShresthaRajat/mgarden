@@ -1,3 +1,6 @@
+---
+tags: [cloud, aws, data]
+---
 # AWS Data Pipeline
 #cloud #aws #data
 

@@ -1,9 +1,7 @@
 ---
 title: AWS
 enableToc: true
-tags:
-- Aws
-- Cloud
+tags: [Aws, Cloud, aws, cloud]
 ---
 
 # AWS

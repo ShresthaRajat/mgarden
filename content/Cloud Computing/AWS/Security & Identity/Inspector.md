@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, security, cloud-security]
+---
 # Amazon Inspector
 #aws #cloud #security #cloud-security 
   

@@ -1,3 +1,6 @@
+---
+tags: [cloud, aws, storage]
+---
 # AWS Storage Services
 #cloud #aws #storage 
 

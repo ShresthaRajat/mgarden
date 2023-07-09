@@ -1,3 +1,6 @@
+---
+tags: [Azure, cloud, security, waf]
+---
 # WAF
 #Azure #cloud #security #waf 
 

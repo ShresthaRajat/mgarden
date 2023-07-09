@@ -1,3 +1,6 @@
+---
+tags: [Azure, cloud, compute]
+---
 # VM (Virtual Macines)
 #Azure #cloud #compute 
 

@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, compute]
+---
 # Batch
 #aws #cloud #compute 
 

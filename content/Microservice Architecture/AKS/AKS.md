@@ -1,3 +1,6 @@
+---
+tags: [Azure, cloud, Kubernetes, microservices, managed-kubernetes-cluster]
+---
 # AKS
 #Azure #cloud #Kubernetes #microservices #managed-kubernetes-cluster
 

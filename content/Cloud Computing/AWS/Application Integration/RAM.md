@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud]
+---
 # AWS Resource Access Manager
 #aws #cloud 
 

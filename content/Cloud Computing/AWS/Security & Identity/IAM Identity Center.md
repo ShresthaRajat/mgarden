@@ -1,3 +1,6 @@
+---
+tags: [cloud, aws, sso, Identity]
+---
 # # IAM Identity Center
 #cloud #aws #sso #Identity 
 

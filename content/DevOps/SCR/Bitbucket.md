@@ -1,3 +1,6 @@
+---
+tags: [source-code-repo, repo, git]
+---
 # BitBucket
 #source-code-repo #repo #git
 

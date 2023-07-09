@@ -1,3 +1,6 @@
+---
+tags: [database, data]
+---
 # Databases
 #database #data 
 

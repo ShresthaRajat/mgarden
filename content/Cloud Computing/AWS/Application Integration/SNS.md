@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, notification]
+---
 # AWS SNS
 #aws #cloud #notification
 

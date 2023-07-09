@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, sql, databases, rdbms]
+---
 # RDS
 #aws #cloud #sql #databases #rdbms
 

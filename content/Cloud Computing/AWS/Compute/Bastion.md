@@ -1,3 +1,6 @@
+---
+tags: [aws, ec2, cloud, compute]
+---
 # Bastion
 #aws #ec2 #cloud #compute 
 also known as Jump-box

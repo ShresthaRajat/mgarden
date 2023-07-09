@@ -1,3 +1,6 @@
+---
+tags: [cyber-security, security, encryption]
+---
 # Symmetric Encryption
 #cyber-security #security #encryption 
 

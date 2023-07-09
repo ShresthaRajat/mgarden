@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, Active-Directory, Microsoft]
+---
 # AWS Managed Microsoft AD
 #aws #cloud #Active-Directory #Microsoft 
 

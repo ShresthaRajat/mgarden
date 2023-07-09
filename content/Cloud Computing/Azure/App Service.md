@@ -1,3 +1,6 @@
+---
+tags: [azure, cloud, compute]
+---
 # Azure App Service
 #azure #cloud #compute 
 

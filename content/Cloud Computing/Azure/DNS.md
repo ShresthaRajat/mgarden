@@ -1,3 +1,6 @@
+---
+tags: [Azure, cloud, networking]
+---
 # Azure DNS
 #Azure #cloud #networking 
 

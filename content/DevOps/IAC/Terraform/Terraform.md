@@ -1,3 +1,6 @@
+---
+tags: [cloud, IaC, terraform]
+---
 Encription# Terraform
 #cloud #IaC #terraform 
 

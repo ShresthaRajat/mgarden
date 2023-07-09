@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, databases, rdbms, nosql, graph]
+---
 # AWS Database Service
 #aws #cloud #databases  #rdbms #nosql #graph
 

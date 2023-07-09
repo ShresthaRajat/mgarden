@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, vpc, networking]
+---
 # VPC (Virtual Private Cloud)
 #aws #cloud #vpc #networking
 

@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud]
+---
 # Amazon Simple Email Service (SES)
 #aws #cloud 
 

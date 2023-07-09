@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, rdbms, serverless, sql]
+---
 # Aurora
 #aws #cloud #rdbms #serverless #sql
 

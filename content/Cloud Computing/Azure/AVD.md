@@ -1,3 +1,6 @@
+---
+tags: [cloud, Azure, virtual-machines, compute]
+---
 # Azure Virtual Desktop (AVD)
 #cloud #Azure #virtual-machines #compute 
 

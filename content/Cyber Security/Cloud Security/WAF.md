@@ -1,3 +1,6 @@
+---
+tags: [cyber-security, cloud, waf, firewall]
+---
 # WAF (Web Application Firewall)
 #cyber-security #cloud #waf #firewall 
 

@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, Iam, Identity]
+---
 # Identity Federation
 #aws #cloud #Iam #Identity 
 
@@ -12,7 +15,7 @@ Note: AWS SSO is now known as IAM Identity Center
 
 ## Onsite IdP with AWS
 
-we can setup an IdP setup on an On premise setup to sign into aws console using the assume role after the authorization is completed in the Onsite IdP.
+we can setup an[[ IdP]] setup on an On premise setup to sign into aws console using the assume role after the authorization is completed in the Onsite IdP.
 
 ![](Attachments/Pasted%20image%2020230306225854.png)
 

@@ -1,3 +1,6 @@
+---
+tags: [cyber-security, cloud-security]
+---
 # Defence In Depth
 #cyber-security #cloud-security 
 
@@ -14,3 +17,5 @@ Example layers of security might include:
 -   **Data** layer security including controls to manage access to business and customer data and encryption to protect data.
 
 ![Defense in depth uses multiple layers of security to protect sensitive data.](https://learn.microsoft.com/en-us/training/wwl-sci/describe-security-concepts-methodologies/media/4-defense-depth.png)
+
+![](Attachments/Pasted%20image%2020230609193019.png)

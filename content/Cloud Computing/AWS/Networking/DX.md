@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, networking]
+---
 # Direct Connect (DX)
 #aws #cloud #networking 
 
@@ -29,6 +32,6 @@ to you
 **Redundant DX connections through secundary DX location**
 ![](Attachments/Pasted%20image%2020230311215049.png)
 
-**Redundant Conneciton through a VPN**
-don't use this setup if bandwidth is abowe 1gbps.
+**Redundant Connection through a VPN**
+don't use this setup if bandwidth is above 1GBps.
 ![](Attachments/Pasted%20image%2020230311215020.png)

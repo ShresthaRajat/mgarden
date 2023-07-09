@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud]
+---
 # AWS Elastic Beanstalk (EB)
 #aws #cloud 
 

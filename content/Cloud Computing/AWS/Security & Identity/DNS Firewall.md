@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, security]
+---
 # DNS Firewall
 #aws #cloud #security 
 

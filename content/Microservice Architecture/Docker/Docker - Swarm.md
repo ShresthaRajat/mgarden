@@ -1,3 +1,6 @@
+---
+tags: [docker, containers, container-orchestration]
+---
 # Docker Swarm
 #docker #containers #container-orchestration
 

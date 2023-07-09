@@ -1,3 +1,6 @@
+---
+tags: [networking, os]
+---
 #networking #networking #os 
 [Aliases](Cyber%20Operations/Operation%20Tools/Aliases.md)
 [Nginx](Cyber%20Operations/Operation%20Tools/Nginx.md)

@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, monitoring]
+---
 # Amazon Managed Service for Prometheus
 #aws #cloud #monitoring 
 

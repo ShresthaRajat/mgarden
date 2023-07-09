@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, data, streaming]
+---
 # Amazon Managed Streaming for Apache Kafka (MSK)
 #aws #cloud #data #streaming
 

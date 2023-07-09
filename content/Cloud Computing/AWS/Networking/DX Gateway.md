@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, networking]
+---
 # Direct Connect Gateway
 #aws #cloud #networking 
 

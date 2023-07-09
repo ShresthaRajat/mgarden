@@ -1,3 +1,6 @@
+---
+tags: [Azure, cloud, networking]
+---
 # Azure Traffic Manager
 #Azure #cloud #networking 
 

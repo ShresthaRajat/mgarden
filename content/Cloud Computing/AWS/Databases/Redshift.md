@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, storage, data-warehouse]
+---
 # Redshift
 #aws #cloud #storage #data-warehouse
 

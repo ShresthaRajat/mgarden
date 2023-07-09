@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, networking]
+---
 # IPv6
 #aws #cloud #networking 
 

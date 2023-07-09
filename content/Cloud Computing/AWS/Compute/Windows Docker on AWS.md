@@ -1,3 +1,6 @@
+---
+tags: [docker, windows, aws]
+---
 # Windows Container Docker on AWS
 #docker #windows #aws 
 

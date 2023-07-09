@@ -1,3 +1,6 @@
+---
+tags: [azure, devops]
+---
 # Azure DevOps
 #azure #devops
 

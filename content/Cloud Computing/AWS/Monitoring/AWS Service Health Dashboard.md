@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud]
+---
 # AWS Service Health Dashboard 
 #aws #cloud 
 

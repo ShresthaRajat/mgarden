@@ -1,3 +1,6 @@
+---
+tags: [cloud, aws, data-analytics]
+---
 # Amazon Athena
 #cloud #aws #data-analytics 
 

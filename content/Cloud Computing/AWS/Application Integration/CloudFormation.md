@@ -1,3 +1,6 @@
+---
+tags: [aws, IaC, cloud]
+---
 # CloudFormation
 #aws  #IaC #cloud
 

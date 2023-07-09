@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, ai, ml]
+---
 # AWS Rekognition
 #aws #cloud #ai #ml
 

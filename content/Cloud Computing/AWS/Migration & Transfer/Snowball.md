@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, snowball, storage, cloud-migration]
+---
 # Snowball Family
 #aws #cloud #snowball #storage #cloud-migration
 

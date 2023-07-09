@@ -1,3 +1,6 @@
+---
+tags: [cyber-security, cloud-security]
+---
 # Zero Trust Policy
 #cyber-security #cloud-security 
 

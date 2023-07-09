@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, organization]
+---
 # AWS Organization
 #aws #cloud #organization 
 

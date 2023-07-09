@@ -1,3 +1,6 @@
+---
+tags: [terraform, IaC]
+---
 # Terragrunt Commands
 #terraform #IaC 
 

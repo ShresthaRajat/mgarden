@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud]
+---
 # AWS License Manager
 #aws #cloud 
 

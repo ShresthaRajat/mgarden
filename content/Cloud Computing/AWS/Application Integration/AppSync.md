@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, GraphQL, application]
+---
 # AppSync
 #aws #cloud #GraphQL #application 
 

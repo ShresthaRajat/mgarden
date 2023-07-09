@@ -1,3 +1,6 @@
+---
+tags: [git, CICD, source-code-repo, repo]
+---
 # GitLab
 #git #CICD #source-code-repo #repo 
 

@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, ai, ml]
+---
 # Amazon Transcribe
 #aws #cloud #ai #ml
 

@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, networking, vpn]
+---
 # AWS Client VPN
 #aws #cloud #networking #vpn
 

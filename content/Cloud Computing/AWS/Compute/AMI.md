@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, compute, packer]
+---
 # Application Mirror image (AMI)
 #aws #cloud #compute #packer 
 

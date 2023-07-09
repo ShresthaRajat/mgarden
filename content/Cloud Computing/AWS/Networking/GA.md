@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, networking]
+---
 # AWS Global Accelerator (GA)
 #aws #cloud #networking 
 

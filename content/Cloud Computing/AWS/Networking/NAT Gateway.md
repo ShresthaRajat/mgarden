@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, networking]
+---
 # NAT Gateway
 #aws #cloud #networking 
 

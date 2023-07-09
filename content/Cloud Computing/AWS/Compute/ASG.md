@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, compute]
+---
 # Auto Scaling Group (ASG)
 #aws #cloud #compute 
 

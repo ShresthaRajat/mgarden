@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, cloud-migration, databases]
+---
 # Database Migration Service (DMS)
 #aws #cloud #cloud-migration  #databases 
 

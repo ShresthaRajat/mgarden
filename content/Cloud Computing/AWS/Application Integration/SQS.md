@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, serverless, microservices, decoupleing, queue]
+---
 # SQS
 #aws #cloud #serverless #microservices  #decoupleing #queue
 

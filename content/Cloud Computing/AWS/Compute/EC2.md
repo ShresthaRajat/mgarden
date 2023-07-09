@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, compute]
+---
 # EC2
 
 #aws #cloud #compute 
@@ -5,7 +8,7 @@
 The Amazon Elastic Compute Cloud, is an [AWS](Cloud%20Computing/AWS/AWS.md) platform for providing cloud-based compute capacity. That means it provides virtual machines in the sky. Where [S3](Cloud%20Computing/AWS/Storage/S3.md) is cloud storage and [RDS](Cloud%20Computing/AWS/Databases/RDS.md) is cloud relational databases, EC2 gives you a machine where you can run anything you want. Want to run a web server, EC2 can do that. Want to run a database, EC2 can do that.  
 -   AWS Elastic Compute Cloud is a computing web service which provides re-sizeable, secure, and reliable capacity in the cloud
 -   You have complete control of your EC2 computing resources.
--   You can scale up or scale down the capacity of your EC2 resources as your technical requirements change
+-   You can scale rup or scale down the capacity of your EC2 resources as your technical requirements change
 -   You must pay only for EC2 resources that you use
 -   You can build and boot new computing instances in only some little minutes
 

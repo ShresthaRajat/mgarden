@@ -1,3 +1,6 @@
+---
+tags: [cloud, aws, cloud-migration]
+---
 # AWS DataSync
 #cloud #aws #cloud-migration 
 

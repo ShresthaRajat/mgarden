@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, sql, databases, rdbms]
+---
 # Database on EC2
 #aws #cloud #sql #databases #rdbms
 

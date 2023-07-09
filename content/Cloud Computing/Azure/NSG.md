@@ -1,3 +1,6 @@
+---
+tags: [Azure, cloud, security, security-groups]
+---
 # NSG (Network Security Groups)
 #Azure #cloud #security #security-groups
 

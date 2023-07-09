@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, bigdata, data-lake]
+---
 # AWS Lake Formation
 #aws #cloud #bigdata #data-lake
 

@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud]
+---
 # Cost Allocation Tags
 #aws #cloud 
 

@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, databases, nosql]
+---
 # DocumentDB
 #aws #cloud #databases  #nosql 
 

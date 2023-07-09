@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud]
+---
 
 #aws #cloud 
 

@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud]
+---
 # AWS Cost Explorer
 #aws #cloud 
 

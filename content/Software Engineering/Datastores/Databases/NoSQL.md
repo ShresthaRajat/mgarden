@@ -1,3 +1,6 @@
+---
+tags: [databases, nosql]
+---
 # NoSQL databases
 #databases #nosql
 

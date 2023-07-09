@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, databases, nosql]
+---
 # DynamoDB
 #aws #cloud #databases #nosql
 

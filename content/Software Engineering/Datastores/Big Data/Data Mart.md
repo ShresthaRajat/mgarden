@@ -1,3 +1,6 @@
+---
+tags: [data, bigdata, data-warehouse]
+---
 # Data Mart
 #data #bigdata #data-warehouse 
 

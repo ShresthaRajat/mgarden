@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud]
+---
 # AWS OpsWorks
 #aws #cloud 
 

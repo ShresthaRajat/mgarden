@@ -1,3 +1,6 @@
+---
+tags: [aws, cli, sdk]
+---
 # AWS CLI
 #aws #cli
 

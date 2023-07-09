@@ -1,3 +1,6 @@
+---
+tags: [data]
+---
 # ETL
 #data 
 

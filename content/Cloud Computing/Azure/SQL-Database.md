@@ -1,3 +1,6 @@
+---
+tags: [cloud, Azure, databases]
+---
 # Azure SQL Database
 #cloud #Azure #databases 
 

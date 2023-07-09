@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, serverless, dataanalytics]
+---
 # Kinesis
 #aws #cloud #serverless #dataanalytics 
 

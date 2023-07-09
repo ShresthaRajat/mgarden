@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, storage, nfs]
+---
 # Elastic File Store (EFS)
 #aws #cloud #storage #nfs
 

@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud]
+---
 # AWS Price List API
 #aws #cloud 
 

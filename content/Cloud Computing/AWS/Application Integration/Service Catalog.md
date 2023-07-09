@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud]
+---
 # Service Catalog
 #aws #cloud 
 

@@ -1,10 +1,7 @@
 ---
 title: Azure
 enableToc: true
-tags:
-- Azure
-- Cloud
-- Microsoft
+tags: [Azure, Cloud, Microsoft, cloud]
 ---
 
 # Azure

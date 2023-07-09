@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, monitoring]
+---
 # Amazon Managed Grafana
 #aws #cloud #monitoring 
 

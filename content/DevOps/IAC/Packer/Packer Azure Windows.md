@@ -1,3 +1,6 @@
+---
+tags: [cloud, azure, hasicorp, IaC, terraform, windows]
+---
 # Packer: Creating a generalized IIS windows server in Azure
 #cloud #azure #hasicorp #IaC #terraform #windows 
 

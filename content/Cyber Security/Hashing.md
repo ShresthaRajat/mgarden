@@ -1,3 +1,6 @@
+---
+tags: [cyber-security, security, encryption]
+---
 ## Hashing
 #cyber-security #security #encryption
 

@@ -1,3 +1,6 @@
+---
+tags: [Azure, AKS, Kubernetes]
+---
 # AKS Automatic Deployments setup
 #Azure #AKS #Kubernetes 
 

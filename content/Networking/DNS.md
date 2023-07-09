@@ -1,3 +1,6 @@
+---
+tags: [networking]
+---
 # Domain Name Server (DNS)
 #networking 
 

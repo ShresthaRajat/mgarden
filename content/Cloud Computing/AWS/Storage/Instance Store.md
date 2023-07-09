@@ -1,3 +1,6 @@
+---
+tags: [cloud, aws, storage]
+---
 # Instance Store
 #cloud #aws #storage 
 

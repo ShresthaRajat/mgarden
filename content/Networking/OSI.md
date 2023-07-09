@@ -1,3 +1,6 @@
+---
+tags: [networking]
+---
 # OSI (Open System Interconnection)
 #networking 
 

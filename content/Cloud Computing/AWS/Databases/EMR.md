@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, bigdata, data-analytics]
+---
 # EMR
 #aws #cloud #bigdata #data-analytics 
 

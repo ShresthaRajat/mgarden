@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, compute, networking]
+---
 # Elastic Network Interface (ENI)
 #aws #cloud #compute #networking 
 

@@ -1,3 +1,6 @@
+---
+tags: [Azure, cloud, organization]
+---
 # Resource Groups (Azure)
 #Azure #cloud #organization
 

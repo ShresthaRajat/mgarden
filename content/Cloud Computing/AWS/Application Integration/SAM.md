@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, serverless]
+---
 # AWS Serverless Application Model (SAM)
 #aws #cloud #serverless 
 

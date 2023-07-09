@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud]
+---
 # AWS Personal Health Dashboard 
 #aws #cloud 
 

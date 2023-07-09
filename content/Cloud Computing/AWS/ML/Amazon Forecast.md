@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, ai, ml]
+---
 # AWS Forecast
 #aws #cloud #ai #ml
 

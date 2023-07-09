@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, iot]
+---
 # AWS IoT Analytics
 #aws #cloud #iot 
 

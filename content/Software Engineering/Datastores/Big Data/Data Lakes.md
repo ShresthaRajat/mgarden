@@ -1,3 +1,6 @@
+---
+tags: [data, bigdata]
+---
 # Data Lakes
 #data #bigdata
 

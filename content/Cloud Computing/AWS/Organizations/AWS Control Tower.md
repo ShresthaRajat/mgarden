@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, organization]
+---
 # Control Tower
 #aws #cloud #organization 
 

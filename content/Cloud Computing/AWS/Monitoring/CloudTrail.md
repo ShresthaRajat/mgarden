@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, auditing, logs, monitoring]
+---
 # CloudTrail
 #aws #cloud #auditing #logs #monitoring 
 

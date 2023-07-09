@@ -1,3 +1,6 @@
+---
+tags: [terraform, IaC]
+---
 # Organizaing Terragrunt
 #terraform #IaC 
 

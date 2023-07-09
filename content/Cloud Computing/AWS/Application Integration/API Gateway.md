@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, api]
+---
 # Amazon API Gateway
 #aws #cloud #api
 

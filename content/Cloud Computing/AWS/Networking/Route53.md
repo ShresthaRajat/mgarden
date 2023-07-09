@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, dns, networking]
+---
 # Route53
 #aws #cloud #dns #networking 
 

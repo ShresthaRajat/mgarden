@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, databases, nosql]
+---
 # Amazon Keyspaces (for Apache Cassandra)
 #aws #cloud #databases  #nosql 
 

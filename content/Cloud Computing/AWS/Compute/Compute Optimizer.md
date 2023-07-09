@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, compute]
+---
 # Compute Optimizer
 #aws #cloud #compute 
 

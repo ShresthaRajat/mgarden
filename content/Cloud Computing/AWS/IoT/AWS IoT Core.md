@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, iot]
+---
 # IoT Core
 #aws #cloud #iot 
 

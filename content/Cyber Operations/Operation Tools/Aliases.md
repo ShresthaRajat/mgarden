@@ -1,3 +1,6 @@
+---
+tags: [linux, cli, zsh]
+---
 # Linux CLI Aliases
 #linux #cli #zsh
 

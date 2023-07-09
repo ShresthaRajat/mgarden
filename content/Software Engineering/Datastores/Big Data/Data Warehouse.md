@@ -1,3 +1,6 @@
+---
+tags: [data, bigdata, data-warehouse]
+---
 # Data Warehouse
 #data #bigdata #data-warehouse 
 

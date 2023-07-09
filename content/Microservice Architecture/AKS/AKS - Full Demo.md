@@ -1,3 +1,6 @@
+---
+tags: [Azure, Kubernetes, AKS, Nginx, Helm, Ingress, TLS, CICD]
+---
 ￼ # AKS Full Demo
 
 #Azure #Kubernetes #AKS #Nginx #Helm #Ingress #TLS #CICD

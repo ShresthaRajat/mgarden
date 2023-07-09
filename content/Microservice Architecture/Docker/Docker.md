@@ -1,3 +1,6 @@
+---
+tags: [containers, virtual-machines, docker]
+---
 # Docker
 #containers #virtual-machines #docker
 

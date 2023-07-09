@@ -1,3 +1,6 @@
+---
+tags: [cyber-security, security]
+---
 # Confidentiality, Integrity, Availability (CIA)
 #cyber-security #security 
 
@@ -11,3 +14,5 @@ Integrity refers to keeping data or messages correct. When you send an email mes
 Availability refers to making data available to those who need it, when they need it. It's important to the organization to keep customer data secure, but at the same time it must also be available to employees who deal with customers. While it might be more secure to store the data in an encrypted format, employees need access to decrypted data.
 
 While the goals of a cybersecurity strategy are to preserve the confidentiality, integrity, and availability of systems, networks, applications, and data; it's the goal of cybercriminals to disrupt these goals. Microsoft’s portfolio includes the solutions and technologies to enable organizations to deliver on the goals of the CIA triad.
+
+First mentioned in [[NIST]] publication from 1977

@@ -1,3 +1,6 @@
+---
+tags: [cloud, aws, hasicorp, IaC, terraform, windows]
+---
 # Packer: Creating a base windows server in AWS
 #cloud #aws #hasicorp #IaC #terraform #windows 
 

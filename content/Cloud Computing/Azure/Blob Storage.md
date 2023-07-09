@@ -1,3 +1,6 @@
+---
+tags: [Azure, cloud, storage]
+---
 # Azure Blob Storage
 #Azure #cloud #storage 
 

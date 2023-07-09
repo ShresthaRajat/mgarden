@@ -1,3 +1,6 @@
+---
+tags: [cloud, Azure, databases]
+---
 # Cosmos DB
 #cloud #Azure #databases 
 

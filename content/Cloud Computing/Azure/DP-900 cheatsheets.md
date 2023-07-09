@@ -1,3 +1,6 @@
+---
+tags: [Azure, cloud]
+---
 # Cheet Sheets
 #Azure #cloud 
 

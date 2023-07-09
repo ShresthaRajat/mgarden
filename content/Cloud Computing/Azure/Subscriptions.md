@@ -1,3 +1,6 @@
+---
+tags: [Azure, cloud]
+---
 # Subscriptions
 #Azure #cloud 
 

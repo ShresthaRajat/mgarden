@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, application]
+---
 # Device Farm
 #aws #cloud #application 
 

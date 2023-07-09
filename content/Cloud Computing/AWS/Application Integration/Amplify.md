@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, application]
+---
 # Amplify
 #aws #cloud #application
 

@@ -1,3 +1,6 @@
+---
+tags: [aws]
+---
 # Fargate
 #aws 
 

@@ -1,3 +1,6 @@
+---
+tags: [CICD]
+---
 # Github - Actions
 #CICD 
 

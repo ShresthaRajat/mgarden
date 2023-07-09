@@ -1,3 +1,6 @@
+---
+tags: [cloud, IaC, terraform, DRY]
+---
 # Terragrunt
 #cloud #IaC #terraform #DRY
 

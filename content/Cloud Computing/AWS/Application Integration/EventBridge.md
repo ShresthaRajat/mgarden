@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud]
+---
 # EventBridge
 #aws #cloud 
 

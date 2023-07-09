@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, monitoring]
+---
 # AWS X-Ray
 #aws #cloud #monitoring 
 

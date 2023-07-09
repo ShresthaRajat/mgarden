@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, monitoring, logs]
+---
 # Cloudwatch
 #aws #cloud  #monitoring #logs 
 

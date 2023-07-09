@@ -1,3 +1,6 @@
+---
+tags: [aws, cloud, database, timeseries]
+---
 # Amazon Timestream
 #aws #cloud #database #timeseries
 

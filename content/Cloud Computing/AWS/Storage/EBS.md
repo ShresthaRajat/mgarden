@@ -1,3 +1,6 @@
+---
+tags: [cloud, aws, storage]
+---
 # Elastic Block Storage (EBS)
 #cloud #aws #storage
 
