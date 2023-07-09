@@ -9,7 +9,7 @@ Security information and event management, SIEM for short, is a solution that he
 Security information and event management (SIEM) is an approach to security management that combines security information management (SIM) and security event management (SEM) functions into one security management system. The acronym SIEM is pronounced "sim" with a silent e.
 
 ## SEM
-Security event management (SEM) is the process of real-time[[ monitoring]] and analysis of security events and alerts to address threats, identify patterns and respond to incidents. In contrast to SIM, it looks closely at specific events that may be a red flag.
+Security event management (SEM) is the process of real-time[ monitoring](%20monitoring) and analysis of security events and alerts to address threats, identify patterns and respond to incidents. In contrast to SIM, it looks closely at specific events that may be a red flag.
 
 ## SIM
 Security Information Management (SIM) refers to the collection and analysis of application and device log data that has been generated. 

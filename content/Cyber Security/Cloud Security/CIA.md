@@ -15,4 +15,4 @@ Availability refers to making data available to those who need it, when they nee
 
 While the goals of a cybersecurity strategy are to preserve the confidentiality, integrity, and availability of systems, networks, applications, and data; it's the goal of cybercriminals to disrupt these goals. Microsoft’s portfolio includes the solutions and technologies to enable organizations to deliver on the goals of the CIA triad.
 
-First mentioned in [[NIST]] publication from 1977
+First mentioned in [NIST](Cyber%20Security/NIST.md) publication from 1977
