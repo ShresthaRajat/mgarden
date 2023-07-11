@@ -6,9 +6,13 @@ ignoreFiles = [
     "/content/templates/*",
     "/content/private/*",
 ]
-summaryLength = 20
 paginate = 10
+summaryLength = 20
 enableGitInfo = true
+title = "shrestharajat.com"
+
+[author]
+  name = "Rajat Shrestha"
 
 [markup]
     [markup.tableOfContents]

@@ -14,7 +14,7 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Build Link Index
-        uses: jackyzha0/hugo-obsidian@v2.19
+        uses: jackyzha0/hugo-obsidian@v2.20
         with:
           index: true
           input: content
@@ -28,12 +28,18 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: hugo
 
-      - name: Deploy
+      - name: Deploy on GitHub
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: master  # deploying branch
-          cname: quartz.jzhao.xyz
+          cname: shrestharajat.com
+
+      # - name: Deploy on fission.codes
+      #   uses: fission-suite/publish-action@v1
+      #   with:
+      #     machine_key: ${{ secrets.FISSION_MACHINE_KEY }}
+      #     build_dir: ./public
